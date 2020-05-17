@@ -5,7 +5,7 @@ tags: [about, skills]
 date: 2020-05-17
 comments: false
 ---
-<center>##Skills</Skills>
+<center>##Skills</center>
 
 |||---|||
 #### Columns

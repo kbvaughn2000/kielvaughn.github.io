@@ -5,7 +5,7 @@ tags: [about, skills]
 date: 2020-05-17
 comments: false
 ---
-	<div class="container">
+<div class="container">
 	<div class="row">
 		<div class="col-sm-3 col-md-2">
 			<div class="progress" data-percentage="20">
@@ -39,7 +39,7 @@ comments: false
 				</div>
 			</div>
 		</div>
-
+		
 		<div class="col-sm-3 col-md-2">
 			<div class="progress" data-percentage="80">
 				<span class="progress-left">
@@ -56,8 +56,8 @@ comments: false
 				</div>
 			</div>
 		</div>
-
-
+		
+		
 		<div class="col-sm-3 col-md-2">
 			<div class="progress" data-percentage="100">
 				<span class="progress-left">
@@ -74,8 +74,8 @@ comments: false
 				</div>
 			</div>
 		</div>
-
-
+		
+		
 			<div class="col-sm-3 col-md-2">
 			<div class="progress" data-percentage="0">
 				<span class="progress-left">
@@ -92,6 +92,6 @@ comments: false
 				</div>
 			</div>
 		</div>
-
+		
 	</div>
 </div>

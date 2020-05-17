@@ -8,7 +8,6 @@ comments: false
 
 <a href="https://www.youracclaim.com/badges/45ab18e6-1431-4601-9353-c74d9e03baba/public_url"><img src="images/certified-information-systems-security-professional-cissp.png"></a>
 <a href="https://www.youracclaim.com/badges/19f6cd58-9bda-467f-80a4-a46cf351af5f/public_url"><img src="images/certified-cloud-security-professional-ccsp.png"></a>
-<div class="col-lg-3 col-md-1 col-sm-5">
 <a href="https://www.youracclaim.com/badges/65f5d524-0d66-4b2e-9c0b-e2ac5dc180f0/public_url"><img src="images/systems-security-certified-practitioner-sscp.png"></a>
 <a href="https://www.youracclaim.com/badges/3315df69-65d8-46e8-81e3-6b39c4aafb1d/public_url"><img src="images/giac-security-essentials-certification-gsec.png"></a>
 <a href="https://www.youracclaim.com/badges/9dee7745-419d-41d0-85aa-a75c7c40c885/public_url"><img src="images/giac-certified-incident-handler-gcih.png"></a>

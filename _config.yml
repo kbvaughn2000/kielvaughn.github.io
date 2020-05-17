@@ -8,7 +8,7 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/cybersecurity-background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://lazacant.github.io
+url:                https://lazacant.github.io/
 
 # Jekyll
 permalink:          /:title/
@@ -34,7 +34,7 @@ sass:
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:              kbvaughn_2000@yahoo.com
 #twitter:           username
 #facebook:          username
 #github-url:        username

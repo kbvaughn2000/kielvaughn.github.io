@@ -12,7 +12,7 @@ I am a seasoned systems administrator with exposure to a wide breadth of informa
 
 Recently, I have started to transition over to more of a security focus in my role, which I greatly enjoy. I am looking to further my skills to become a seasoned cybersecurity professional.
 
-# <center> Skills</center>
+## Skills
 
 * Windows Systems Administration
 * Linux Systems Administration

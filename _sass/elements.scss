@@ -171,7 +171,7 @@ figure {
    &.fifth {
     @media only screen and (min-width: 62.5em) {
       img {
-        width: calc(20%);
+        width: calc(20% - 5px);
         float: left;
         margin-left: 1px;
         margin-right: 1px;

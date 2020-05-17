@@ -15,10 +15,13 @@ Recently, I have started to transition over to more of a security focus in my ro
 ## Skills
 
 * Windows Systems Administration
+
 <img src="https://progress-bar.dev/80/?width=350"></img>
 
 * Linux Systems Administration
+
 <img src="https://progress-bar.dev/90/?width=350"></img>
+
 * AIX Systems Administration
 * Citrix Administration
 * VMWare

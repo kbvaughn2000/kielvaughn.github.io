@@ -170,8 +170,8 @@ figure {
     @media only screen and (min-width: 62.5em) {
       img {
         width: calc(20% - 10px);
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: auto;
+        margin-right: auto;
       }
       figcaption {
         clear: left;

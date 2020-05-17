@@ -16,11 +16,11 @@ Recently, I have started to transition over to more of a security focus in my ro
 
 * Windows Systems Administration
 
-<img src="https://progress-bar.dev/80/?width=350"></img>
+<img src="https://progress-bar.dev/80/?width=350">
 
 * Linux Systems Administration
 
-<img src="https://progress-bar.dev/90/?width=350"></img>
+<img src="https://progress-bar.dev/90/?width=350">
 
 * AIX Systems Administration
 * Citrix Administration

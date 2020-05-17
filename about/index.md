@@ -22,8 +22,6 @@ comments: false
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-lg-1 col-sm-3">
 			<div class="progress" data-percentage="40">
 				<span class="progress-left">
 					<span class="progress-bar"></span>
@@ -38,8 +36,6 @@ comments: false
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-lg-1 col-sm-3">
 			<div class="progress" data-percentage="80">
 				<span class="progress-left">
 					<span class="progress-bar"></span>
@@ -54,8 +50,6 @@ comments: false
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-lg-1 col-sm-3">
 			<div class="progress" data-percentage="100">
 				<span class="progress-left">
 					<span class="progress-bar"></span>
@@ -70,8 +64,6 @@ comments: false
 					</div>
 				</div>
 			</div>
-		</div>
-			<div class="col-lg-1 col-sm-3">
 			<div class="progress" data-percentage="0">
 				<span class="progress-left">
 					<span class="progress-bar"></span>

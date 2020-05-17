@@ -220,3 +220,108 @@ kbd {
     font-weight: 300;
     margin-bottom: 10px;
 }
+.column {
+  width: 47.5%;
+  float: left;
+  text-align: center;
+}
+.column-mid {
+  width: 5%;
+  float: left;
+  text-align: center;
+}
+.progress-bar-60 {
+  height: 20px;
+  background: #ccc;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.progress-bar-60 div {
+  height: 20px;
+  background: #555;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.progress-bar-60 div span {
+  display: inline-block;
+  font-size: 18px;
+  float: right;
+  margin-right: 10%;
+  color: #fff;
+}
+
+.progress-bar-70 {
+  height: 20px;
+  margin-left: auto;
+  margin-right:auto;
+  background: #ccc;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.progress-bar-70 div {
+  height: 20px;
+  background: #555;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.progress-bar-70 div span {
+  display: inline-block;
+  font-size: 18px;
+  float: right;
+  margin-right: 10%;
+  color: #fff;
+}
+
+.progress-bar-80 {
+  height: 20px;
+  margin-left: auto;
+  margin-right:auto;
+  background: #ccc;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.progress-bar-80 div {
+  height: 20px;
+  background: #555;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.progress-bar-80 div span {
+  display: inline-block;
+  font-size: 18px;
+  float: right;
+  margin-right: 10%;
+  color: #fff;
+}
+
+.progress-bar-90 {
+  height: 20px;
+  margin-left: auto;
+  margin-right:auto;
+  background: #ccc;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.progress-bar-90 div {
+  height: 20px;
+  background: #555;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.progress-bar-90 div span {
+  display: inline-block;
+  font-size: 18px;
+  float: right;
+  margin-right: 10%;
+  color: #fff;
+}

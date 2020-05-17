@@ -6,28 +6,42 @@ date: 2020-05-17
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<div class="row">
+  <div class="column">
+    <div class="progress-bar-60">
+      <div><span>60%</span></div>
+    </div>
+    <BR>
+    <div class="progress-bar-70">
+      <div><span>70%</span></div>
+    </div>
+    <BR>
+    <div class="progress-bar-80">
+      <div><span>80%</span></div>
+    </div>
+    <BR>
+    <div class="progress-bar-90">
+      <div><span>90%</span></div>
+    </div>
+      </div>
+  <div class="column-mid"><BR></div>
+  <div class="column">
+    <div class="progress-bar-60">
+      <div><span>60%</span></div>
+    </div>
+    <BR>
+    <div class="progress-bar-70">
+      <div><span>70%</span></div>
+    </div>
+    <BR>
+    <div class="progress-bar-80">
+      <div><span>80%</span></div>
+    </div>
+    <BR>
+    <div class="progress-bar-90">
+      <div><span>90%</span></div>
+    </div>
+      </div>
+</div>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
 
-## Preview
-
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started

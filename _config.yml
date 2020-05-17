@@ -1,6 +1,6 @@
 # Site
 title:              Kiel Vaughn, CISSP
-bio:                'I'm an experienced information technology professional located in Southeast Michigan with a background in systems administration and cyber security.'
+bio:                'An experienced information technology professional located in Southeast Michigan with a background in systems administration and cyber security.'
 description:        ""
 reading_time:       true
 words_per_minute:   200
@@ -8,7 +8,7 @@ logo:               'assets/img/kiel-circle.png'
 background:         'assets/img/cybersecurity-background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://lazacant.github.io/
+url:                https://lazacant.github.io
 
 # Jekyll
 permalink:          /:title/

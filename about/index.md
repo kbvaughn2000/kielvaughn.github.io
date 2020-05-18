@@ -7,7 +7,7 @@ comments: false
 ---
 I am a seasoned systems administrator with exposure to a wide breadth of information technology platforms including Windows Server, Linux, AIX, and Citrix. I also have experience in automating over 250 processes at my current employer, and am heavily involved with project and vendor management.
 
-Recently, I have started to transition over to more of a security focus in my role, which I greatly enjoy. I am looking to further my skills to become a seasoned cybersecurity professional.
+Recently, I have started to transition over to more of a security focus in my role, which I greatly enjoy. I am looking to further my skills to become a seasoned cybersecurity professional. Some recent cybersecurity projects I have been involved in include: implementation of Rapid7's InsightIDR and InsightIVM platforms, reconfiguring several web applications to utilize HTTPS over HTTP, and redesigning some file transfer processes to utilize SFTP instead of FTP.
 
 ## <center>Skills</center>
 

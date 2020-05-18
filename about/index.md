@@ -12,7 +12,8 @@ Recently, I have started to transition over to more of a security focus in my ro
 ## <center>Skills</center>
 
 <section>
-<div class="col">
+    <div class="col">
+    
 * Windows Systems Administration
 
 <img src="https://progress-bar.dev/80/?width=350">
@@ -36,7 +37,7 @@ Recently, I have started to transition over to more of a security focus in my ro
 * SQL Administration
 * Hardware Troubleshooting/Repair
 
-</div>
+    </div>
 </section>
 
 

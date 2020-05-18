@@ -9,7 +9,7 @@ comments: false
 
 I recently successfully completed the GIAC GCIH certification. This certification was an awesome experience and it helped me bolster my knowledge about several facets of IT Security.
 
-<center><img src="/assets/img/gcih-gold.png" width="50%"></center>
+![test image size](/assets/img/gcih-gold.png){:height="50%" width="50%"}
 
 If you are looking to learn more about:
 

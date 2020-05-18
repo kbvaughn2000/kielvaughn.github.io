@@ -8,7 +8,7 @@ logo:               'assets/img/kiel-circle.png'
 background:         'assets/img/cybersecurity-background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://lazacant.github.io
+url:                https://kielvaughn.com
 
 # Jekyll
 permalink:          /:title/

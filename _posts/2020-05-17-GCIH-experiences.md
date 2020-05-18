@@ -17,8 +17,8 @@ If you are looking to learn more about:
 * current tools used by cyber criminals,
 * or defenses against common attacks occurring today,
 
-then this certification and its material are right for you. I have taken a significant amount of certifications over the last few years (almost 20 in all), and I feel that this one was as beneficial to me from a technical standpoint as the CISSP.
+then this certification and its material are right for you. I have taken a significant amount of certifications over the last few years (almost 20 in all), and I feel that this one was as beneficial to me from a technical standpoint as the CISSP was from a managerial standpoint.
 
-While this certification is quite expensive, I feel it will provide me with a significant return on investment. You can also sign up for the courses and their associated certifications on the <a href="https://www.sans.edu">sans.edu</a> website at a discounted rate for up to two of their courses.
+While this certification is quite expensive, I feel it provides a significant return on investment. You can also sign up for the courses and their associated certifications on the <a href="https://www.sans.edu">sans.edu</a> website at a discounted rate for up to two of their courses.
 
-I am now eagerly anticipating the arrival of my books for my next GIAC certification, the GPEN.
+I am now eagerly anticipating the arrival of my books for my next GIAC certification, the GPEN. I will provide my thoughts on that certification sometime in the near future.

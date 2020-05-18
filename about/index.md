@@ -14,29 +14,69 @@ Recently, I have started to transition over to more of a security focus in my ro
 <section>
     <div class="col">
     
-* Windows Systems Administration
+**** <center>Windows Systems Administration</center>
+
+<img src="https://progress-bar.dev/85/?width=350">
+
+**** Linux Systems Administration
 
 <img src="https://progress-bar.dev/80/?width=350">
 
-* Linux Systems Administration
+**** <center>AIX Systems Administration</center>
+
+<img src="https://progress-bar.dev/75/?width=350">
+
+**** <center>Citrix Administration</center>
+
+<img src="https://progress-bar.dev/70/?width=350">
+
+**** <center>VMWare</center>
+
+<img src="https://progress-bar.dev/70/?width=350">
+
+**** <center>PowerShell Scripting</center>
+
+<img src="https://progress-bar.dev/75/?width=350">
+
+**** <center>Batch Scripting</center>
+
+<img src="https://progress-bar.dev/85/?width=350">
+
+**** <center>Automation/Process Improvement</center>
 
 <img src="https://progress-bar.dev/90/?width=350">
 
-* AIX Systems Administration
-* Citrix Administration
-* VMWare
-* PowerShell Scripting
-* Batch Scripting
-* Automation/Process Improvement
-* System Conversions
-* Project Management
-* Vendor Management
-* Disaster Recovery
-* Incident Response
-* Information Security
-* SQL Administration
-* Hardware Troubleshooting/Repair
+**** <center>System Conversions</center>
 
+<img src="https://progress-bar.dev/70/?width=350">
+
+**** <center>Project Management</center>
+
+<img src="https://progress-bar.dev/80/?width=350">
+
+**** <center>Vendor Management</center>
+
+<img src="https://progress-bar.dev/80/?width=350">
+
+**** <center>Disaster Recovery</center>
+
+<img src="https://progress-bar.dev/90/?width=350">
+
+**** <center>Incident Response</center>
+
+<img src="https://progress-bar.dev/75/?width=350">
+
+**** <center>Information Security</center>
+
+<img src="https://progress-bar.dev/85/?width=350">
+
+**** <center>SQL Administration</center>
+
+<img src="https://progress-bar.dev/65/?width=350">
+
+**** <center>Hardware Troubleshooting/Repair</center>
+
+<img src="https://progress-bar.dev/90/?width=350">
     </div>
 </section>
 

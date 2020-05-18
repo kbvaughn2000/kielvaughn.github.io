@@ -11,15 +11,8 @@ Recently, I have started to transition over to more of a security focus in my ro
 
 ## <center>Skills</center>
 
-<div class="container">
-   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      First Column 
-   </div>
-   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      Second Column 
-   </div>
-<div>
-
+<section>
+<div class="col">
 * Windows Systems Administration
 
 <img src="https://progress-bar.dev/80/?width=350">
@@ -42,5 +35,8 @@ Recently, I have started to transition over to more of a security focus in my ro
 * Information Security
 * SQL Administration
 * Hardware Troubleshooting/Repair
+
+</div>
+</section>
 
 

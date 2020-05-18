@@ -12,6 +12,7 @@ Recently, I have started to transition over to more of a security focus in my ro
 ## <center>Skills</center>
 
 <section>
+    <div class="container">
     <div class="col">
     
 <center>Windows Systems Administration</center>
@@ -77,6 +78,7 @@ Recently, I have started to transition over to more of a security focus in my ro
 <center>Hardware Troubleshooting/Repair</center>
 
 <img src="https://progress-bar.dev/90/?width=350">
+    </div>
     </div>
 </section>
 

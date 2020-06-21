@@ -75,7 +75,5 @@ Recently, I have started to transition over to more of a security focus in my ro
         <center>Hardware Troubleshooting/Repair</center>
 
         <img src="https://progress-bar.dev/90/?width=600">
-    </div>
-</section>
 
 

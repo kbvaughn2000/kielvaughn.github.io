@@ -12,37 +12,37 @@ Recently, I have started to transition over to more of a security focus in my ro
 ## <center>Skills</center>
 <section>
     <div>
-        <center>Windows Systems Administration</center>
-        <img src="https://progress-bar.dev/85/?width=600">
-        <center>Linux Systems Administration</center>
-        <img src="https://progress-bar.dev/80/?width=600">
-        <center>AIX Systems Administration</center>
-        <img src="https://progress-bar.dev/75/?width=600">
-        <center>Citrix Administration</center>
-        <img src="https://progress-bar.dev/70/?width=600">
-        <center>VMWare</center>
-        <img src="https://progress-bar.dev/70/?width=600">
-        <center>PowerShell Scripting</center>
-        <img src="https://progress-bar.dev/75/?width=600">
-        <center>Batch Scripting</center>
-        <img src="https://progress-bar.dev/85/?width=600">
-        <center>Automation/Process Improvement</center>
-        <img src="https://progress-bar.dev/90/?width=600">
-        <center>System Conversions</center>
-        <img src="https://progress-bar.dev/70/?width=600">
-        <center>Project Management</center>
-        <img src="https://progress-bar.dev/80/?width=600">
-        <center>Vendor Management</center>
-        <img src="https://progress-bar.dev/80/?width=600">
-        <center>Disaster Recovery</center>
-        <img src="https://progress-bar.dev/90/?width=600">
-        <center>Incident Response</center>
-        <img src="https://progress-bar.dev/75/?width=600">
-        <center>Information Security</center>
-        <img src="https://progress-bar.dev/80/?width=600">
-        <center>SQL Administration</center>
-        <img src="https://progress-bar.dev/65/?width=600">
-        <center>Hardware Troubleshooting/Repair</center>
-        <img src="https://progress-bar.dev/90/?width=600">
+        <center>Windows Systems Administration</center><br>
+        <img src="https://progress-bar.dev/85/?width=600"><br>
+        <center>Linux Systems Administration</center><br>
+        <img src="https://progress-bar.dev/80/?width=600"><br>
+        <center>AIX Systems Administration</center><br>
+        <img src="https://progress-bar.dev/75/?width=600"><br>
+        <center>Citrix Administration</center><br>
+        <img src="https://progress-bar.dev/70/?width=600"><br>
+        <center>VMWare</center><br>
+        <img src="https://progress-bar.dev/70/?width=600"><br>
+        <center>PowerShell Scripting</center><br>
+        <img src="https://progress-bar.dev/75/?width=600"><br>
+        <center>Batch Scripting</center><br>
+        <img src="https://progress-bar.dev/85/?width=600"><br>
+        <center>Automation/Process Improvement</center><br>
+        <img src="https://progress-bar.dev/90/?width=600"><br>
+        <center>System Conversions</center><br>
+        <img src="https://progress-bar.dev/70/?width=600"><br>
+        <center>Project Management</center><br>
+        <img src="https://progress-bar.dev/80/?width=600"><br>
+        <center>Vendor Management</center><br>
+        <img src="https://progress-bar.dev/80/?width=600"><br>
+        <center>Disaster Recovery</center><br>
+        <img src="https://progress-bar.dev/90/?width=600"><br>
+        <center>Incident Response</center><br>
+        <img src="https://progress-bar.dev/75/?width=600"><br>
+        <center>Information Security</center><br>
+        <img src="https://progress-bar.dev/80/?width=600"><br>
+        <center>SQL Administration</center><br>
+        <img src="https://progress-bar.dev/65/?width=600"><br>
+        <center>Hardware Troubleshooting/Repair</center><br>
+        <img src="https://progress-bar.dev/90/?width=600"><br>
     </div>
 </section>

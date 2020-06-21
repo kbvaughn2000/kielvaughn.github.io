@@ -10,70 +10,39 @@ I am a seasoned systems administrator with exposure to a wide breadth of informa
 Recently, I have started to transition over to more of a security focus in my role, which I greatly enjoy. I am looking to further my skills to become a seasoned cybersecurity professional. Some recent cybersecurity projects I have been involved in include: implementation of Rapid7's InsightIDR and InsightIVM platforms, reconfiguring several web applications to utilize HTTPS over HTTP, and redesigning some file transfer processes to utilize SFTP instead of FTP.
 
 ## <center>Skills</center>
-
-   
+<section>
+    <div>
         <center>Windows Systems Administration</center>
-
         <img src="https://progress-bar.dev/85/?width=600">
-
         <center>Linux Systems Administration</center>
-
         <img src="https://progress-bar.dev/80/?width=600">
-
         <center>AIX Systems Administration</center>
-
         <img src="https://progress-bar.dev/75/?width=600">
-
         <center>Citrix Administration</center>
-
         <img src="https://progress-bar.dev/70/?width=600">
-
         <center>VMWare</center>
-
         <img src="https://progress-bar.dev/70/?width=600">
-
         <center>PowerShell Scripting</center>
-
         <img src="https://progress-bar.dev/75/?width=600">
-
         <center>Batch Scripting</center>
-
         <img src="https://progress-bar.dev/85/?width=600">
-
         <center>Automation/Process Improvement</center>
-
         <img src="https://progress-bar.dev/90/?width=600">
-
         <center>System Conversions</center>
-
         <img src="https://progress-bar.dev/70/?width=600">
-
         <center>Project Management</center>
-
         <img src="https://progress-bar.dev/80/?width=600">
-
         <center>Vendor Management</center>
-
         <img src="https://progress-bar.dev/80/?width=600">
-
         <center>Disaster Recovery</center>
-
         <img src="https://progress-bar.dev/90/?width=600">
-
         <center>Incident Response</center>
-
         <img src="https://progress-bar.dev/75/?width=600">
-
         <center>Information Security</center>
-
         <img src="https://progress-bar.dev/80/?width=600">
-
         <center>SQL Administration</center>
-
         <img src="https://progress-bar.dev/65/?width=600">
-
         <center>Hardware Troubleshooting/Repair</center>
-
         <img src="https://progress-bar.dev/90/?width=600">
-
-
+    </div>
+</section>

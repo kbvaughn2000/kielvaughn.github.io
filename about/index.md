@@ -12,37 +12,37 @@ Recently, I have started to transition over to more of a security focus in my ro
 ## <center>Skills</center>
 <section>
     <div>
-        <center>Windows Systems Administration</center><br>
+        <center>Windows Systems Administration</center>
         <img src="https://progress-bar.dev/85/?width=600"><br>
-        <center>Linux Systems Administration</center><br>
+        <center>Linux Systems Administration</center>
         <img src="https://progress-bar.dev/80/?width=600"><br>
-        <center>AIX Systems Administration</center><br>
+        <center>AIX Systems Administration</center>
         <img src="https://progress-bar.dev/75/?width=600"><br>
-        <center>Citrix Administration</center><br>
+        <center>Citrix Administration</center>
         <img src="https://progress-bar.dev/70/?width=600"><br>
-        <center>VMWare</center><br>
+        <center>VMWare</center>
         <img src="https://progress-bar.dev/70/?width=600"><br>
-        <center>PowerShell Scripting</center><br>
+        <center>PowerShell Scripting</center>
         <img src="https://progress-bar.dev/75/?width=600"><br>
-        <center>Batch Scripting</center><br>
+        <center>Batch Scripting</center>
         <img src="https://progress-bar.dev/85/?width=600"><br>
-        <center>Automation/Process Improvement</center><br>
+        <center>Automation/Process Improvement</center>
         <img src="https://progress-bar.dev/90/?width=600"><br>
-        <center>System Conversions</center><br>
+        <center>System Conversions</center>
         <img src="https://progress-bar.dev/70/?width=600"><br>
-        <center>Project Management</center><br>
+        <center>Project Management</center>
         <img src="https://progress-bar.dev/80/?width=600"><br>
-        <center>Vendor Management</center><br>
+        <center>Vendor Management</center>
         <img src="https://progress-bar.dev/80/?width=600"><br>
-        <center>Disaster Recovery</center><br>
+        <center>Disaster Recovery</center>
         <img src="https://progress-bar.dev/90/?width=600"><br>
-        <center>Incident Response</center><br>
+        <center>Incident Response</center>
         <img src="https://progress-bar.dev/75/?width=600"><br>
-        <center>Information Security</center><br>
+        <center>Information Security</center>
         <img src="https://progress-bar.dev/80/?width=600"><br>
-        <center>SQL Administration</center><br>
+        <center>SQL Administration</center>
         <img src="https://progress-bar.dev/65/?width=600"><br>
-        <center>Hardware Troubleshooting/Repair</center><br>
+        <center>Hardware Troubleshooting/Repair</center>
         <img src="https://progress-bar.dev/90/?width=600"><br>
     </div>
 </section>

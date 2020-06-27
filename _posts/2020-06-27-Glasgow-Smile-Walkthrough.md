@@ -7,7 +7,7 @@ tags: [vulnhub, Glasgow Smile, Boot2Root]
 comments: false
 ---
 
-In order to start preparing for my eventual goal of completing the OSCP, I have started to do my best to break into various boxes found on the (https://www.vulnhub.com "Vulnhub") website.
+In order to start preparing for my eventual goal of completing the OSCP, I have started to do my best to break into various boxes found on the [Vulnhub](https://www.vulnhub.com) website.
 
 The first box I selected was named Glasgow Smile, which is labeled as an OSCP style box with several flags of varying challenge levels from easy to intermediate.
 
@@ -79,7 +79,7 @@ Clicking on Templates on the left hand menu followed by Protostar Details and Fi
 
 ![Glasgow Smile Joomla Template Files](/assets/img/Glasgow15.png)
 
-From here, I clicked on index.php, and deleted all the info in the file. Then I pasted in the PHP Reverse Shell from (http://pentestmonkey.net/tools/web-shells/php-reverse-shell "PenTestMonkey") and modified it to point to the appropriate IP address and port on my attacker computer. Once modified, I clicked on Save.
+From here, I clicked on index.php, and deleted all the info in the file. Then I pasted in the PHP Reverse Shell from [PenTestMonkey](http://pentestmonkey.net/tools/web-shells/php-reverse-shell) and modified it to point to the appropriate IP address and port on my attacker computer. Once modified, I clicked on Save.
 
 ![Glasgow Smile Rev Shell](/assets/img/Glasgow16.png)
 

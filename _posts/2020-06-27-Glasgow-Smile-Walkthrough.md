@@ -21,7 +21,7 @@ This can also be achieved another way, with netdiscover as shown below:
 
 ![Glasgow Smile netdiscover](/assets/img/Glasgow2.png)
 
-Now that we have located the IP address of our target, we can proceed with performing an nmap scan to search for open ports, protocols and their versions.
+Now that we have located the IP address of our target, we can proceed with performing an **nmap** scan to search for open ports, protocols and their versions.
 
 nmap will show you that there is both SSH and Apache running which is hosting a website.
 
@@ -31,7 +31,7 @@ Visiting the website presents you with a page featuring the Joker, but nothing e
 
 ![Glasgow Smile Main Page](/assets/img/Glasgow4.png)
 
-At this point, you can use one of several tools to enumerate the website. I selected dirb which resulted in uncovering that Joomla is installed.
+At this point, you can use one of several tools to enumerate the website. I selected **dirb** which resulted in uncovering that Joomla is installed.
 
 ![Glasgow Smile dirb](/assets/img/Glasgow5.png)
 
@@ -39,23 +39,23 @@ Navigation to this directory presents a page with portions of the dialogue from 
 
 ![Glasgow Smile joomla](/assets/img/Glasgow6.png)
 
-At this point, I ran joomscan to see if it could uncover anything interesting that could be exploited. Unfortunately, there wasn't anything uncovered that was exploitable.
+At this point, I ran **joomscan** to see if it could uncover anything interesting that could be exploited. Unfortunately, there wasn't anything uncovered that was exploitable.
 
 ![Glasgow Smile joomscan](/assets/img/Glasgow7.png)
 
-However, we now knew the location of the administrator login page. Next, I turned my attention back to the main joomla page to run cewl to parse the main joomla page for words 6 characters or longer. This was so these could be used as potential credentials for logging into the admin portal.
+However, we now knew the location of the administrator login page. Next, I turned my attention back to the main Joomla page to run **cewl** to parse the main Joomla page for words 6 characters or longer. This was so these could be used as potential credentials for logging into the admin portal.
 
 ![Glasgow Smile cewl](/assets/img/Glasgow8.png)
 
-Next, I launched Burp and navigated to the admin login page and put in fake credentials so we could capture the request/response. I was able to capture the format of the request.
+Next, I launched **Burp Suite** and navigated to the admin login page and put in fake credentials so we could capture the request/response. I was able to capture the format of the request.
 
 ![Glasgow Smile Burp](/assets/img/Glasgow9.png)
 
-Next, I sent this to Intruder for attempts at cracking the login credentials. Once in Intruder, I cleared all of the payload positions and selected only the passwd field.
+Next, I sent this to **Intruder** for attempts at cracking the login credentials. Once in **Intruder**, I cleared all of the payload positions and selected only the passwd field.
 
 ![Glasgow Smile Burp Intuder](/assets/img/Glasgow10.png)
 
-I then clicked on the Payloads tab and imported the word list from Cewl.
+I then clicked on the **Payloads** tab and imported the word list from cewl.
 
 ![Glasgow Smile Burp Payload](/assets/img/Glasgow11.png)
 
@@ -63,7 +63,9 @@ Once imported, I started the attack. It did not produce any results with admin o
 
 ![Glasgow Smile Burp Attack](/assets/img/Glasgow12.png)
 
-We were able to recover user credentials of **Username:** joomla and **Password:** Gotham
+We were able to recover user credentials of:
+
+**Username:** joomla and **Password:** Gotham
 
 These credentials were then used to login to the admin page, where we discovered these were Super Administrator credentials.
 
@@ -83,7 +85,7 @@ From here, I clicked on index.php, and deleted all the info in the file. Then I 
 
 ![Glasgow Smile Rev Shell](/assets/img/Glasgow16.png)
 
-Back on the attacker PC, I created a netcat listener on the port specified in the PHP Reverse Shell.
+Back on the attacker PC, I created a **netcat** listener on the port specified in the PHP Reverse Shell.
 
 ![Glasgow Smile netcat listener](/assets/img/Glasgow17.png)
 
@@ -161,7 +163,7 @@ Since this directory is owned be root, we cannot extract it here, so we copy it 
 
 ![Glasgow Smile abner copy dear_penguins](/assets/img/Glasgow33.png)
 
-Next, from abner's home directory, unzip the .dear_penguins.zip file with abner's password. Upon viewing the file, it appears there is a password of **scf4W7q4B4caTMRhSFYmktMsn87F35UkmKttM5Bz**listed in the last line of the file.
+Next, from abner's home directory, unzip the .dear_penguins.zip file with abner's password. Upon viewing the file, it appears there is a password of **scf4W7q4B4caTMRhSFYmktMsn87F35UkmKttM5Bz** listed in the last line of the file.
 
 ![Glasgow Smile abner dear_penguins text](/assets/img/Glasgow34.png)
 

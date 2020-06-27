@@ -77,7 +77,7 @@ Once saved, reload the page again. You should now see the page properly and a lo
 
 ## Exploitation
 
-You will come across mail-masta as one of the plugins in use. A quick Google search leads to an exploit for this on ![Exploit-DB](https://www.exploit-db.com/exploits/40290).
+You will come across mail-masta as one of the plugins in use. A quick Google search leads to an exploit for this on [Exploit-DB](https://www.exploit-db.com/exploits/40290).
 
 ![symfonos1 LFI exploit](/assets/img/symfonos1-15.png)
 

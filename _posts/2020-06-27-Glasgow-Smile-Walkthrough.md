@@ -11,7 +11,7 @@ In order to start preparing for my eventual goal of completing the OSCP, I have 
 
 The first box I selected was named Glasgow Smile, which is labeled as an OSCP style box with several flags of varying challenge levels from easy to intermediate.
 
-##Reconnaissance & Scanning
+## Reconnaissance & Scanning
 
 After importing into VMware Workstation and booting up the machine, you are presented with the following screen, which will provide you with the IP address of this host.
 
@@ -69,7 +69,7 @@ These credentials were then used to login to the admin page, where we discovered
 
 ![Glasgow Smile Joomla Admin](/assets/img/Glasgow13.png)
 
-##Exploitation and Privilege Escalation
+## Exploitation and Privilege Escalation
 
 The next step at this point is to get a reverse shell back to our attacker computer. Clicking on Templates on the left hand side shows you all the templates installed and which one is currently in use. The template that is used for the entire site is **protostar**. 
 

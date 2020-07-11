@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Source, TryHackMe"
+title: "Source"
 date: 2020-06-25
 excerpt: "Walkthrough for Source on TryHackme"
 tags: [Source, TryHackMe, Webmin, CVE-2019-15107]

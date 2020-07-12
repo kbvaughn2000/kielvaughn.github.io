@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux Chaallenges, TryHackMe"
-date: 2020-06-25
+date: 2020-07-12
 excerpt: "Walkthrough for Linux Challenges on TryHackme"
 tags: [Linux Challenges, TryHackMe]
 comments: false

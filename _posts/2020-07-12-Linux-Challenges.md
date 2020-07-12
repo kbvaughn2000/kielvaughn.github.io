@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linux Chaallenges, TryHackMe"
+title: "Linux Challenges, TryHackMe"
 date: 2020-07-12
 excerpt: "Walkthrough for Linux Challenges on TryHackme"
 tags: [Linux Challenges, TryHackMe]

@@ -19,9 +19,7 @@ Now that we have located the IP address of our target, we can proceed with perfo
 
 ![symfonos1 nmap](/assets/img/symfonos1-2.png)
 
-Based on the scan, we can see that ssh, smtp, netbios and smb are running, along with an Apache webserver on port 80.
-
-Visiting the webpage brings us to a page with nothing special on it, just a background image.
+Based on the scan, we can see that ssh, smtp, netbios and smb are running, along with an Apache webserver on port 80. Visiting the webpage brings us to a page with nothing special on it, just a background image.
 
 ![symfonos1 home page](/assets/img/symfonos1-3.png)
 
@@ -29,9 +27,7 @@ At this point, I elected to run **dirb** to enumerate the website. It came back 
 
 ![symfonos1 dirb](/assets/img/symfonos1-4.png)
 
-I next turned my attention to SMB that was running over port 445.
-
-I was able to connect as an anonymous user using **rpcclient** as shown below.
+I next turned my attention to SMB that was running over port 445. I was able to connect as an anonymous user using **rpcclient** as shown below.
 
 ![symfonos1 rpcclient](/assets/img/symfonos1-5.png)
 
@@ -45,13 +41,11 @@ Next, I ran the smb-enum-shares script with nmap to enumerate smb shares.
 
 This showed several different shares that could be connected to anonymously **\\192.168.68.137\anonymous, \\192.168.68.137\IPC$,** and **\\192.168.68.137\print$**. There was also a **\\192.168.68.137\helios** share present that anonymous/guest access was disabled on.
 
-At this point, I tried to connect to the shares anonymous could access to see if anything could be pilfered. This was done with **smbclient**. The anonymous share was the first to be checked.
-
-Upon connecting, there was an attention.txt file present.
+At this point, I tried to connect to the shares anonymous could access to see if anything could be pilfered. This was done with **smbclient**. The anonymous share was the first to be checked. Upon connecting, there was an attention.txt file present.
 
 ![symfonos1 smbclient anonymous share](/assets/img/symfonos1-8.png)
 
-I downloaded the file, dropped the smb connection, and read the file locally with **cat**
+I downloaded the file, dropped the smb connection, and read the file locally with **cat**.
 
 ![symfonos1 smbclient attention.txt](/assets/img/symfonos1-9.png)
 
@@ -81,15 +75,15 @@ You will come across mail-masta as one of the plugins in use. A quick Google sea
 
 ![symfonos1 LFI exploit](/assets/img/symfonos1-15.png)
 
-Modify the sample code and use the following url to pull a list of users on the system `http://symfonos.local/h3l105/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd`
+Modify the sample code and use the following url to pull a list of users on the system `http://symfonos.local/h3l105/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd`.
 
 ![symfonos1 LFI etc/passwd](/assets/img/symfonos1-16.png)
 
-Now that we are sure that LFI works, we can attempt SMTP poisoning to utilize RCE. This is accomplished with running `telnet symfonos.local 25`
+Now that we are sure that LFI works, we can attempt SMTP poisoning to utilize RCE. This is accomplished with running `telnet symfonos.local 25`.
 
 ![symfonos1 smtp](/assets/img/symfonos1-17.png)
 
-We will now send an email to Helios with a 1 line of PHP code that allows for RCE: `<?php system($_GET['c']); ?>`
+We will now send an email to Helios with a 1 line of PHP code that allows for RCE: `<?php system($_GET['c']); ?>`.
 
 ![symfonos1 smtp send](/assets/img/symfonos1-18.png)
 
@@ -106,7 +100,7 @@ Next, we will create a TTY shell with `python -c 'import pty;pty.spawn("/bin/bas
 
 ![symfonos1 python tty shell](/assets/img/symfonos1-22.png)
 
-Next, we will use the following `find / -perm -u=s -type f 2>/dev/null` to find all the programs that run with SUID.
+Then, we will use the following `find / -perm -u=s -type f 2>/dev/null` to find all the programs that run with SUID.
 
 ![symfonos1 find](/assets/img/symfonos1-23.png)
 

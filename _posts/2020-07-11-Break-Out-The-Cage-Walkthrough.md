@@ -45,7 +45,7 @@ Let's see what weston can run as root with **sudo -l**. We are given the followi
 
 Let's run that file and see what happens. It prints some text. Running **cat /usr/bin/bees** shows you that this is a bash script.
 
-![Break Out The Cage bees](/assets/img/BreakOutTheCage24.png)
+![Break Out The Cage bees](/assets/img/BreakOutTheCage25.png)
 
 Unfortunately, we are not able to edit this file. However, every few minutes a broadcast message from cage comes up.
 

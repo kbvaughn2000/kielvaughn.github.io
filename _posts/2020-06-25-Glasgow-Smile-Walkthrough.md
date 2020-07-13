@@ -93,9 +93,7 @@ I then navigated to the shell.php file just created located at http://192.168.68
 
 ![Glasgow Smile connection established](/assets/img/Glasgow18.png)
 
-This is a non-interactive shell, so python was used to create an interactive shell with the following command: `python -c 'import pty; pty.spawn("/bin/bash")'`
-
-You should now have an interactive shell as user www-data. Next we will look for database credentials in the main joomla configuration file to see what other credentials can be uncovered. This is located at **/var/www/joomla2/configuration.php**
+This is a non-interactive shell, so python was used to create an interactive shell with the following command: `python -c 'import pty; pty.spawn("/bin/bash")'`. You should now have an interactive shell as user www-data. Next we will look for database credentials in the main joomla configuration file to see what other credentials can be uncovered. This is located at **/var/www/joomla2/configuration.php**
 
 ![Glasgow Smile joomla configuration](/assets/img/Glasgow19.png)
 
@@ -103,7 +101,7 @@ We will now log into the database and see what information can be found.
 
 ![Glasgow Smile database login](/assets/img/Glasgow20.png)
 
-`show databases;` will list the available databases
+`show databases;` will list the available databases.
 
 ![Glasgow Smile databases](/assets/img/Glasgow21.png)
 
@@ -119,13 +117,13 @@ We will now log into the database and see what information can be found.
 
 ![Glasgow Smile show taskforce](/assets/img/Glasgow24.png)
 
-rob's password is base64 encoded. This can be decoded with `echo -n Pz8/QWxsSUhhdmVBcmVOZWdhdGl2ZVRob3VnaHRzPz8/|base64 -d`
+rob's password is base64 encoded. This can be decoded with `echo -n Pz8/QWxsSUhhdmVBcmVOZWdhdGl2ZVRob3VnaHRzPz8/|base64 -d`.
 
 This return's rob's password: **???AllIHaveAreNegativeThoughts???**
 
 ![Glasgow Smile rob password](/assets/img/Glasgow25.png)
 
-From here, you can now ssh as rob to the machine and uncover the first flag **user.txt**
+From here, you can now ssh as rob to the machine and uncover the first flag **user.txt**.
 
 ![Glasgow Smile rob flag](/assets/img/Glasgow26.png)
 
@@ -153,13 +151,11 @@ This file doesn't really provide any info that is helpful, as it just tells you 
 
 ![Glasgow Smile abner info](/assets/img/Glasgow31.png)
 
-Next, I reviewed abner's **.bash_history** file and noticed it mentioned two different file names, **.dear_penguins.zip** and **dear_penguins**
+Next, I reviewed abner's **.bash_history** file and noticed it mentioned two different file names, **.dear_penguins.zip** and **dear_penguins**.
 
 ![Glasgow Smile abner bash history](/assets/img/Glasgow32.png)
 
-It appears that some useful info might be present in this zip file, so I did a recursive search with `find /var/www/ -name ".dear*" -print'` to find the .dear_penguins.zip file. It was located under **/var/www/joomla2/administrator/manifests/files/.dear_penguins.zip**
-
-Since this directory is owned be root, we cannot extract it here, so we copy it to abner's home directory.
+It appears that some useful info might be present in this zip file, so I did a recursive search with `find /var/www/ -name ".dear*" -print'` to find the .dear_penguins.zip file. It was located under **/var/www/joomla2/administrator/manifests/files/.dear_penguins.zip**. Since this directory is owned be root, we cannot extract it here, so we copy it to abner's home directory.
 
 ![Glasgow Smile abner copy dear_penguins](/assets/img/Glasgow33.png)
 

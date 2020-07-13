@@ -17,7 +17,7 @@ This shows 2 ports open, 22 (ssh) and 10000 (typically used for webmin)
 
 ![Source nmap](/assets/img/Source1.png)
 
-Let's pull up the site on port 10000 with **https://[machine ip]:10000**. This site is using a self signed certificate, so accept the certificate and you will be presented with a webmin login page. A quick Google search shows you that one of the latest CVEs for Webmin was CVE-2019-15107, which allows for remote code execution without authentication. This is because of a bug in a parameter in password_change.cgi. Let's launch Metasploit with **msfconsole** and run **search webmin 1.920** one of the results will include an exploit we can use.
+Let's pull up the site on port 10000 with **https://[machine ip]:10000**. This site is using a self signed certificate, so accept the certificate and you will be presented with a webmin login page. A quick Google search shows you that one of the latest CVEs for Webmin was CVE-2019-15107, which allows for remote code execution without authentication. This is because of a bug in a parameter in password_change.cgi. Let's launch Metasploit with **msfconsole** and run **search webmin 1.920**. One of the results will include an exploit we can use.
 
 ![Source Metasploit](/assets/img/Source2.png)
 

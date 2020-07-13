@@ -97,10 +97,10 @@ In the 3rd email, it states that it likely has something to do with his account 
 
 Success! We now have root access. Let's see if we can find the root flag now. Let's navigate to root's home folder with **cd /root** and run **ls -al**. We will see an email_backup folder. Let's navigate to it with **cd email_backup** and run **ls **, we see two emails in this folder.
 
-![Break Out the Cage finding root flag](/assets/img/BreakOutTheCage23.png)
+![Break Out The Cage finding root flag](/assets/img/BreakOutTheCage23.png)
 
 Let's run **cat em*** to view their contents. In the bottom of the second email is the root flag.
 
-![](/assets/img/BreakOutTheCage24.png)
+![Break Out The Cage Root Flag](/assets/img/BreakOutTheCage24.png)
 
 This is the root flag for this challenge!

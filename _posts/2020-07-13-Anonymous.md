@@ -37,7 +37,7 @@ The last file, which is viewed with **cat to_do.txt**, states that anonymous log
 
 ![Anonymous cat to_do.txt](/assets/img/Anonymous6.png)
 
-This is likely a hint that anonymous access is available in multiple places. Let's try to enumerate the smb shares next with **smbclient -L \\\\\\\\[machine ip]\\\\ **. This will return 3 shares as shown above.
+This is likely a hint that anonymous access is available in multiple places. Let's try to enumerate the smb shares next with **smbclient -L \\\\\\\\[machine ip]\\\\**. This will return 3 shares as shown above.
 
 ![Anonymous list smb shares smbclient](/assets/img/Anonymous7.png)
 

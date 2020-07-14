@@ -1,7 +1,7 @@
 ---
 layout: post
 title: " Anonymous - TryHackMe"
-date: 2020-07-14
+date: 2020-07-13
 excerpt: "Walkthrough for Anonymous on TryHackme"
 tags: [Anonymous, TryHackMe, privilege escalation, script modification]
 comments: false

@@ -41,7 +41,7 @@ This is likely a hint that anonymous access is available in multiple places. Let
 
 ![Anonymous list smb shares smbclient](/assets/img/Anonymous7.png)
 
-The smb share **pics** is the answer to Question 4. Let's try to connect to pics anonymously with **smbclient \\\\\\\\[machine ip]\\\\pics -U ""**. We are also able to connect anonymously and after running **ls**, we see that there are 2 pictures in this folder. Let's grab them both with **mget \***.
+The smb share **pics** is the answer to **Question 4**. Let's try to connect to pics anonymously with **smbclient \\\\\\\\[machine ip]\\\\pics -U ""**. We are also able to connect anonymously and after running **ls**, we see that there are 2 pictures in this folder. Let's grab them both with **mget \***.
 
 ![Anonymous smbclient anonymous](/assets/img/Anonymous8.png)
 
@@ -81,6 +81,6 @@ Now lets run this with **./linpeas.sh**. While this puts out a lot of informatio
 
 ![Anonymous SUID](/assets/img/Anonymous16.png)
 
-[GTFOBins](https://gtfobins.github.io/) is a great site to look up ways to exploit executables in Linux. env can be used for privilege escalation with **./env /bin/sh -p**. Now, if we run **whoami** we are the root user! We can now run **cd /root** followed by **ls**. root.txt is in this file, so let's run **cat root.txt** to get the root flag.
+[GTFOBins](https://gtfobins.github.io/) is a great site to look up ways to exploit executables in Linux. env can be used for privilege escalation with **./env /bin/sh -p**. Now, if we run **whoami** we are the root user! We can now run **cd /root** followed by **ls**. root.txt is in this file, so let's run **cat root.txt** to get the root flag. This is the final challenge and the answer to **Question 6**.
 
 ![Anonymous root.txt](/assets/img/Anonymous17.png)

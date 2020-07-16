@@ -21,7 +21,7 @@ Now lets run **nmap -A -p 21,22,8081,31331,35143 [machine ip]**  to enumerate th
 
 ![UltraTech nmap2](/assets/img/UltraTech2.png)
 
-We should now be able to answer some of the questions for this task. **Question 1** is shown above, which is node.js. **Question 2** is going to be the port Apache is running on that is not standard, which is the answer to **Question 3**.
+We should now be able to answer some of the questions for this task. **Question 1** is shown above, which is node.js. **Question 2** is going to be the port Apache is running on that is not standard, which is the name of the service that answers **Question 3**.
 
 **Question 4** is also in the scan above, which includes the name of the OS.
 

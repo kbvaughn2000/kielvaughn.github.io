@@ -25,7 +25,7 @@ Running **cat dad_tasks** from my local machine gives me results that are encode
 
 ![Break Out The Cage cat dad_tasks](/assets/img/BreakOutTheCage4.png)
 
-Let's run **cat dad_tasks | base64 -d** to decode it from base64. This gives us a different type of encoding.
+Let's run **cat dad_tasks \| base64 -d** to decode it from base64. This gives us a different type of encoding.
 
 ![Break Out The Cage base64 decode](/assets/img/BreakOutTheCage5.png)
 

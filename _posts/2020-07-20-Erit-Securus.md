@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Erit Securus I - TryHackMe"
+date: 2020-07-20
+excerpt: "Walkthrough for Erit Securus I on TryHackme"
+tags: [Erit Securus I, TryHackMe,pivoting, bolt cms]
+comments: false
+---
+
+
 Erit Securus I is an easy rated difficulty box on [TryHackMe](https://www.tryhackme.com). Below are the steps taken to compromise this system.
 
 ### Task 1

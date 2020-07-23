@@ -29,5 +29,5 @@ comments: false
 <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=rr4Wn1EkFaNsoOBLE44UPMzbqTf6spF6DHIVIR4kb+8="><img src="/assets/img/ECES.png"></a>
 <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=T9Q6uX0Oz9pHwFPlMuds6WjJsbK0Kdt1ONzGUMR5yQg="><img src="/assets/img/ECIH.png"></a>
 </figure>
-I am also currently a proud member of the GIAC Advisory board.
+<P>I am also currently a proud member of the GIAC Advisory board.
 <center><a href="https://www.youracclaim.com/badges/7a183b5b-ab92-40c9-97ff-1f54ffedee06/public_url"><img src="/assets/img/giac-advisory-board.png"></a></center>

@@ -4,7 +4,7 @@ title: Active Certifications and Associations
 excerpt: "Below are a list of the certifications I actively hold. Click on any of the images below to verify my certification status."
 comments: false
 ---
-<center>Below are a list of the certifications I actively hold. Click on any of the images below to verify my certification status.</center>
+## Certifications
 <figure class="fourth">
 <a href="https://www.youracclaim.com/badges/45ab18e6-1431-4601-9353-c74d9e03baba/public_url"><img src="/assets/img/certified-information-systems-security-professional-cissp.png"></a>
 <a href="https://www.youracclaim.com/badges/19f6cd58-9bda-467f-80a4-a46cf351af5f/public_url"><img src="/assets/img/certified-cloud-security-professional-ccsp.png"></a>
@@ -29,5 +29,5 @@ comments: false
 <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=rr4Wn1EkFaNsoOBLE44UPMzbqTf6spF6DHIVIR4kb+8="><img src="/assets/img/ECES.png"></a>
 <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=T9Q6uX0Oz9pHwFPlMuds6WjJsbK0Kdt1ONzGUMR5yQg="><img src="/assets/img/ECIH.png"></a>
 </figure>
-<center><p>I am also currently a proud member of the GIAC Advisory board.</p>
+## Associations
 <a href="https://www.youracclaim.com/badges/7a183b5b-ab92-40c9-97ff-1f54ffedee06/public_url"><img src="/assets/img/giac-advisory-board.png"></a></center>

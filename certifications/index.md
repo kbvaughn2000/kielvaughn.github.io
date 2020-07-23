@@ -4,7 +4,7 @@ title: Active Certifications and Associations
 excerpt: "Below are a list of the certifications I actively hold. Click on any of the images below to verify my certification status."
 comments: false
 ---
-<p align=center size= 28px>
+<p align=center style="font-size:28px;">
 Certifications
 </p>
 <hr>
@@ -32,7 +32,7 @@ Certifications
 <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=rr4Wn1EkFaNsoOBLE44UPMzbqTf6spF6DHIVIR4kb+8="><img src="/assets/img/ECES.png"></a>
 <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=T9Q6uX0Oz9pHwFPlMuds6WjJsbK0Kdt1ONzGUMR5yQg="><img src="/assets/img/ECIH.png"></a>
 </figure>
-<p align=center size= 28px>
+<p align=center style="font-size:28px;">
 Associations
 </p>
 <hr>

@@ -21,11 +21,11 @@ comments: false
 <figure class="fourth">
 <a href="https://www.youracclaim.com/badges/f203cf59-f60f-4737-a0f0-2ad6c123cea2/public_url"><img src="/assets/img/Aplus-Logo-Certified-CE.png"></a>
 <a href="https://www.youracclaim.com/badges/3116913f-b8f4-4489-b1d7-2fedfc0196ba/public_url"><img src="/assets/img/ProjectPlus-Logo-Certified.png"></a>
-<a href="https://www.youracclaim.com/badges/67d81255-a491-4a90-8e8f-e133ac258770/public_url"><img src="/assets/img/certified-associate-in-project-management-capm.png"></a>
 <a href="https://www.youracclaim.com/badges/7fc98686-0352-45bd-bced-ba95bc880ac2/public_url"><img src="/assets/img/insightidr-certified-specialist.png"></a>
+<a href="https://www.youracclaim.com/badges/bb9d0b46-c0fc-4c94-9b7c-cd997f998d1a/public_url"><img src="/assets/img/insightvm-certified-administrator.png"></a>
 </figure>
 <figure class="fourth">
-<a href="https://www.youracclaim.com/badges/bb9d0b46-c0fc-4c94-9b7c-cd997f998d1a/public_url"><img src="/assets/img/insightvm-certified-administrator.png"></a>
+<a href="https://www.youracclaim.com/badges/67d81255-a491-4a90-8e8f-e133ac258770/public_url"><img src="/assets/img/certified-associate-in-project-management-capm.png"></a>
 <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=sgl13SrfavYZ8bjOS+1ss8/Ujuo/97o0p74t0HLjXeU="><img src="/assets/img/ECC-CEHPractical.png"></a>
 <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=rr4Wn1EkFaNsoOBLE44UPMzbqTf6spF6DHIVIR4kb+8="><img src="/assets/img/ECES.png"></a>
 <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=T9Q6uX0Oz9pHwFPlMuds6WjJsbK0Kdt1ONzGUMR5yQg="><img src="/assets/img/ECIH.png"></a>

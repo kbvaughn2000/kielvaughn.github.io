@@ -30,4 +30,4 @@ comments: false
 <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=T9Q6uX0Oz9pHwFPlMuds6WjJsbK0Kdt1ONzGUMR5yQg="><img src="/assets/img/ECIH.png"></a>
 </figure>
 ## Associations
-<a href="https://www.youracclaim.com/badges/7a183b5b-ab92-40c9-97ff-1f54ffedee06/public_url"><img src="/assets/img/giac-advisory-board.png"></a></center>
+<a href="https://www.youracclaim.com/badges/7a183b5b-ab92-40c9-97ff-1f54ffedee06/public_url"><img src="/assets/img/giac-advisory-board.png"></a>

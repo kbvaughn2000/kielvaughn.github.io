@@ -6,7 +6,7 @@ comments: false
 ---
 <hr>
 <center><p style="font-size:24px;font-weight:bold"> Certifications</p></center>
-<hr>
+<hr><br>
 <figure class="fourth">
 <a href="https://www.youracclaim.com/badges/45ab18e6-1431-4601-9353-c74d9e03baba/public_url"><img src="/assets/img/certified-information-systems-security-professional-cissp.png"></a>
 <a href="https://www.youracclaim.com/badges/19f6cd58-9bda-467f-80a4-a46cf351af5f/public_url"><img src="/assets/img/certified-cloud-security-professional-ccsp.png"></a>
@@ -33,5 +33,5 @@ comments: false
 </figure>
 <hr>
 <center><p style="font-size:24px;font-weight:bold"> Associations</p></center>
-<hr>
+<hr><br>
 <a href="https://www.youracclaim.com/badges/7a183b5b-ab92-40c9-97ff-1f54ffedee06/public_url"><img src="/assets/img/giac-advisory-board.png"></a>

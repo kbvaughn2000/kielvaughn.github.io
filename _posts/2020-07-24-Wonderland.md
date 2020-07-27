@@ -2,7 +2,7 @@
 layout: post
 title: "Wonderland - TryHackMe"
 date: 2020-07-24
-excerpt: "Walkthrough for Wodnerland on TryHackme"
+excerpt: "Walkthrough for Wonderland on TryHackme"
 tags: [Wonderland, TryHackMe, privilege escalation, website enumeration]
 comments: false
 ---

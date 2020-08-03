@@ -3,7 +3,7 @@ layout: post
 title: " Literally Vulnerable - Vulnhub"
 date: 2020-08-02
 excerpt: "Walkthrough for Literally Vulnerable on Vulnhub"
-tags: [website enumeration, anonymous ftp, privilege escalation]
+tags: [website enumeration, anonymous ftp, privilege escalation, VulnHub]
 comments: false
 ---
 

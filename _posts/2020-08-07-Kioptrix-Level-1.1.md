@@ -1,8 +1,8 @@
 ---
 layout: post
 title: " Kioptrix - Level 1.1"
-date: 2020-08-07
-excerpt: "Walkthrough for Kioptrix Level21 on Vulnhub"
+date: 2020-08-08
+excerpt: "Walkthrough for Kioptrix Level 1.1 on Vulnhub"
 tags: [SQL injection, command execution, privilege escalation]
 comments: false
 ---

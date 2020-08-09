@@ -1,0 +1,78 @@
+---
+layout: post
+title: "OSCP Study - Part 1"
+date: 2020-05-17
+excerpt: "My current studying plans and status for taking the OSCP."
+tags: [OSCP, Offensive Security, certification]
+comments: false
+---
+
+I recently decided to start working on studying for the OSCP exam, as even though I've heard mixed things about the exam, it is still considered the de facto Penetration Testing certification as of the time of this post.
+
+I came across <a href="https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=0">NetSecFocus'</a> list of VMs on Vulnhub, and decided to start working on them and making writeups.
+
+My goal was to complete all of these myself without looking up any walkthroughs or looking for hints. Essentially, my plan is to "try harder" so I feel confident to take on this certification.
+
+The list of machines I'm planning on taking and their current status is as follows.
+
+|          **Room Name**           |  **Status**  |
+| :------------------------------: | :------: |
+|            Kipotrix 1            | Complete |
+|           Kioptrix 1.1           | Complete |
+|           Kioptrix 1.2           |          |
+|           Kioptrix 1.3           |          |
+|          Kioptrix 2014           |          |
+|         FristiLeaks 1.3          |          |
+|            Stapler 1             |          |
+|             VulnOS 2             |          |
+|            SickOs 1.2            |          |
+|            Brainpan 1            |          |
+|         HackLAB: Vulnix          |          |
+|       /dev/random: scream        |          |
+|            pWnOS 2.0             |          |
+|            SkyTower 1            |          |
+|            Mr-Robot 1            |          |
+|              PwnLab              |          |
+|           Lin.Security           |          |
+|          Temple of Doom          |          |
+|         Pinkys Palace v1         |          |
+|         Pinkys Palace v2         |          |
+|              Zico2               |          |
+|            Wintermute            |          |
+|      Lord of the root 1.0.1      |          |
+|             Tr0ll 1              |          |
+|             Tr0ll 2              |          |
+|         Web Developer 1          |          |
+|            SolidState            |          |
+|             Hackme 1             |          |
+|         Escalate_Linux 1         |          |
+|               DC 6               |          |
+|               DC 9               |          |
+|   Digitalworld.local (Bravery)   |          |
+| Digitalworld.local (Development) |          |
+|  Digitalworld.local (Mercy v2)   |          |
+|     Digitalworld.local (JOY)     |          |
+|             Prime 1              |          |
+|            Symfonos 1            |          |
+|            Symfonos 2            |          |
+|            Symfonos 3            |          |
+|            Symfonos 4            |          |
+|           Symfonos 5.2           |          |
+|          Misdirection 1          |          |
+|              Sar 1               |          |
+|             Djinn 1              |          |
+|              EVM 1               |          |
+|           DerpNStink 1           |          |
+|       RickdiculouslyEasy 1       |          |
+|             Breach 1             |          |
+|            Breach 2.1            |          |
+|           Breach 3.0.1           |          |
+|             NullByte             |          |
+|            Bob 1.0.1             |          |
+|             Toppo 1              |          |
+|            W34kn3ss 1            |          |
+|           GoldenEye 1            |          |
+|      Infosec Prep OSCP Box       |          |
+
+My goal is to complete these rooms over the next 90 days, and see if I feel prepared to take on the OSCP material and examination at that point. My plan is to provide updates once a month along with my thoughts on these boxes.
+

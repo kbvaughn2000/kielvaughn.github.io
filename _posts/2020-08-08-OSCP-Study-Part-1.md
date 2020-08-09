@@ -15,9 +15,11 @@ My goal was to complete all of these myself without looking up any walkthroughs 
 
 Below is the list of machines I am planning to complete. The ones marked with a check have been completed and will be followed by the date completed.
 
+<img src="https://progress-bar.dev/5/?title=progress&width=600" />
+
 - [x] Kioptrix Level 1 — 08/07/2020
 - [x] Kioptrix Level 1.1 — 08/07/2020
-- [ ] Kioptrix Level 1.2
+- [x] Kioptrix Level 1.2 — 08/09/2020
 - [ ] Kioptrix Level 1.3
 - [ ] Kioptrix 2014
 - [ ] Fristileaks 1.3

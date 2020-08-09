@@ -2,6 +2,7 @@
 layout: post
 title: " Anonymous - TryHackMe"
 date: 2020-07-13
+ctf: true
 excerpt: "Walkthrough for Anonymous on TryHackme"
 tags: [Anonymous, TryHackMe, privilege escalation, script modification]
 comments: false

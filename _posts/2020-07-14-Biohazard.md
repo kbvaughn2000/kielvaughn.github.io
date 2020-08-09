@@ -1,7 +1,7 @@
 ---
 layout: post
 title: " Biohazard - TryHackMe"
-date: 2020-07-13
+date: 2020-07-14
 ctf: true
 excerpt: "Walkthrough for Biohazard on TryHackme"
 tags: [Biohazard, TryHackMe, encryption, puzzle]

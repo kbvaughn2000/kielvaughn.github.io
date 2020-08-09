@@ -2,6 +2,7 @@
 layout: post
 title: "symfonos2 - Vulnhub Boot2Root"
 date: 2020-06-28
+ctf: true
 excerpt: "Walkthrough for the symfonos2 VM"
 tags: [vulnhub, symfonos, symfonos2, Boot2Root]
 comments: false

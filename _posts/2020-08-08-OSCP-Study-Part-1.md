@@ -15,7 +15,66 @@ My goal was to complete all of these myself without looking up any walkthroughs 
 
 The list of machines I'm planning on taking and their current status is as follows.
 
-<table width=80%> <tr> <th style="text-align: center" width=40%><strong>Room Name</strong></th> <th style="text-align: center" width=40%><strong>Status</strong></th> </tr> </thead> <tbody> <tr> <td style="text-align: left">Kipotrix 1</td> <td style="text-align: left">Complete</td> </tr> <tr> <td style="text-align: left">Kioptrix 1.1</td> <td style="text-align: left">Complete</td> </tr> <tr> <td style="text-align: left">Kioptrix 1.2</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Kioptrix 1.3</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Kioptrix 2014</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">FristiLeaks 1.3</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Stapler 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">VulnOS 2</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">SickOs 1.2</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Brainpan 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">HackLAB: Vulnix</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">/dev/random: scream</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">pWnOS 2.0</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">SkyTower 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Mr-Robot 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">PwnLab</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Lin.Security</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Temple of Doom</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Pinkys Palace v1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Pinkys Palace v2</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Zico2</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Wintermute</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Lord of the root 1.0.1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Tr0ll 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Tr0ll 2</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Web Developer 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">SolidState</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Hackme 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Escalate_Linux 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">DC 6</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">DC 9</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Digitalworld.local (Bravery)</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Digitalworld.local (Development)</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Digitalworld.local (Mercy v2)</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Digitalworld.local (JOY)</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Prime 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Symfonos 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Symfonos 2</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Symfonos 3</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Symfonos 4</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Symfonos 5.2</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Misdirection 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Sar 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Djinn 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">EVM 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">DerpNStink 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">RickdiculouslyEasy 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Breach 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Breach 2.1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Breach 3.0.1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">NullByte</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Bob 1.0.1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Toppo 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">W34kn3ss 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">GoldenEye 1</td> <td style="text-align: left"> </td> </tr> <tr> <td style="text-align: left">Infosec Prep OSCP Box</td> <td style="text-align: left"> </td> </tr> </tbody> </table>
+|          **Room Name**           | **Status** |
+| :------------------------------: | :--------: |
+|            Kipotrix 1            |  Complete  |
+|           Kioptrix 1.1           |  Complete  |
+|           Kioptrix 1.2           |            |
+|           Kioptrix 1.3           |            |
+|          Kioptrix 2014           |            |
+|         FristiLeaks 1.3          |            |
+|            Stapler 1             |            |
+|             VulnOS 2             |            |
+|            SickOs 1.2            |            |
+|            Brainpan 1            |            |
+|         HackLAB: Vulnix          |            |
+|       /dev/random: scream        |            |
+|            pWnOS 2.0             |            |
+|            SkyTower 1            |            |
+|            Mr-Robot 1            |            |
+|              PwnLab              |            |
+|           Lin.Security           |            |
+|          Temple of Doom          |            |
+|         Pinkys Palace v1         |            |
+|         Pinkys Palace v2         |            |
+|              Zico2               |            |
+|            Wintermute            |            |
+|      Lord of the root 1.0.1      |            |
+|             Tr0ll 1              |            |
+|             Tr0ll 2              |            |
+|         Web Developer 1          |            |
+|            SolidState            |            |
+|             Hackme 1             |            |
+|         Escalate_Linux 1         |            |
+|               DC 6               |            |
+|               DC 9               |            |
+|   Digitalworld.local (Bravery)   |            |
+| Digitalworld.local (Development) |            |
+|  Digitalworld.local (Mercy v2)   |            |
+|     Digitalworld.local (JOY)     |            |
+|             Prime 1              |            |
+|            Symfonos 1            |            |
+|            Symfonos 2            |            |
+|            Symfonos 3            |            |
+|            Symfonos 4            |            |
+|           Symfonos 5.2           |            |
+|          Misdirection 1          |            |
+|              Sar 1               |            |
+|             Djinn 1              |            |
+|              EVM 1               |            |
+|           DerpNStink 1           |            |
+|       RickdiculouslyEasy 1       |            |
+|             Breach 1             |            |
+|            Breach 2.1            |            |
+|           Breach 3.0.1           |            |
+|             NullByte             |            |
+|            Bob 1.0.1             |            |
+|             Toppo 1              |            |
+|            W34kn3ss 1            |            |
+|           GoldenEye 1            |            |
+|      Infosec Prep OSCP Box       |            |
+
+
 
 My goal is to complete these rooms over the next 90 days, and see if I feel prepared to take on the OSCP material and examination at that point. My plan is to provide updates once a month along with my thoughts on these boxes.
 

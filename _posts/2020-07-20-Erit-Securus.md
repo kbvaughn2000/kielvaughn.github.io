@@ -2,6 +2,7 @@
 layout: post
 title: "Erit Securus I - TryHackMe"
 date: 2020-07-20
+ctf: true
 excerpt: "Walkthrough for Erit Securus I on TryHackme"
 tags: [Erit Securus I, TryHackMe,pivoting, bolt cms]
 comments: false

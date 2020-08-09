@@ -2,6 +2,7 @@
 layout: post
 title: " Kioptrix - Level 1"
 date: 2020-08-07
+ctf: true
 excerpt: "Walkthrough for Kioptrix Level 1 on Vulnhub"
 tags: [Apache exploitation, OpenFuck]
 comments: false

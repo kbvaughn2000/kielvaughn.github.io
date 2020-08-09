@@ -2,6 +2,7 @@
 layout: post
 title: "Source - TryHackMe"
 date: 2020-07-11
+ctf: true
 excerpt: "Walkthrough for Source on TryHackme"
 tags: [Source, TryHackMe, Webmin, CVE-2019-15107]
 comments: false

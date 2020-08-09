@@ -2,6 +2,7 @@
 layout: post
 title: "Misdirection - VulnHub"
 date: 2020-07-30
+ctf: true
 excerpt: "Walkthrough for Misdirection on Vulnhub"
 tags: [Misdirection, VulnHub, privilege escalation, website enumeration]
 comments: false

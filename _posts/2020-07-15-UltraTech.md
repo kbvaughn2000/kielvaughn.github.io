@@ -2,6 +2,7 @@
 layout: post
 title: " UltraTech - TryHackMe"
 date: 2020-07-15
+ctf: true
 excerpt: "Walkthrough for UltraTech on TryHackme"
 tags: [UltraTech, TryHackMe, node.js API, docker, hash cracking]
 comments: false

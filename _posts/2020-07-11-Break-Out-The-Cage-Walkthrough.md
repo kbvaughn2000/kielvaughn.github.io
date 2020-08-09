@@ -2,6 +2,7 @@
 layout: post
 title: "Break Out The Cage - TryHackMe"
 date: 2020-07-11
+ctf: true
 excerpt: "Walkthrough for Break Out The Cage on TryHackme"
 tags: [Break Out The Cage, TryHackMe, encryption, email]
 comments: false

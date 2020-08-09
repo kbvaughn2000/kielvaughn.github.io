@@ -2,6 +2,7 @@
 layout: post
 title: "Year of the Rabbit - TryHackMe"
 date: 2020-07-23
+ctf: true
 excerpt: "Walkthrough for Year of the Rabbit on TryHackme"
 tags: [Year of the Rabbit, TryHackMe, privilege escalation, steganography, website enumeration, CVE]
 comments: false

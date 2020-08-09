@@ -4,7 +4,7 @@ title: " Kioptrix - Level 1"
 date: 2020-08-07
 ctf: true
 excerpt: "Walkthrough for Kioptrix Level 1 on Vulnhub"
-tags: [Apache exploitation, OpenFuck]
+tags: [OSCP, Apache exploitation, OpenFuck]
 comments: false
 ---
 [Kioptrix](https://www.vulnhub.com/entry/kioptrix-level-1-1,22/) Level 1 is a vulnerable machine found on the [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=0) list which I have been using as preparation for the OSCP. Below is a walkthrough to compromise this machine.

@@ -15,8 +15,8 @@ My goal was to complete all of these myself without looking up any walkthroughs 
 
 Below is the list of machines I am planning to complete. The ones marked with a check have been completed and will be followed by the date completed.
 
-- [x] Kioptrix Level 1 - 08/07/2020
-- [x] Kioptrix Level 1.1 - 08/07/2020
+- [x] Kioptrix Level 1 — 08/07/2020
+- [x] Kioptrix Level 1.1 — 08/07/2020
 - [ ] Kioptrix Level 1.2
 - [ ] Kioptrix Level 1.3
 - [ ] Kioptrix 2014
@@ -73,5 +73,5 @@ Below is the list of machines I am planning to complete. The ones marked with a 
 - [ ] Infosec Prep OSCP Box
 
 
-My goal is to complete these rooms over the next 90 days, and see if I feel prepared to take on the OSCP material and examination at that point. My plan is to provide updates once a month along with my thoughts on these boxes.
+My goal is to complete these rooms over the next 120 days, and see if I feel prepared to take on the OSCP material and examination at that point. My plan is to provide updates once a month along with my thoughts on these boxes.
 

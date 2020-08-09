@@ -4,7 +4,7 @@ title: " Kioptrix - Level 1.1"
 date: 2020-08-08
 ctf: true
 excerpt: "Walkthrough for Kioptrix Level 1.1 on Vulnhub"
-tags: [SQL injection, command execution, privilege escalation]
+tags: [OSCP, SQL injection, command execution, privilege escalation]
 comments: false
 ---
 [Kioptrix]( https://www.vulnhub.com/entry/kioptrix-level-11-2,23/) Level 1.1 is a vulnerable machine found on the [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=0) list which I have been using as preparation for the OSCP. Below is a walkthrough to compromise this machine.

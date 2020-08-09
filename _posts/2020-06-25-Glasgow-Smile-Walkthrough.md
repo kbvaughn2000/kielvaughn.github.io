@@ -2,6 +2,7 @@
 layout: post
 title: "Glasgow Smile - Vulnhub Boot2Root"
 date: 2020-06-25
+ctf: true
 excerpt: "Walkthrough for the Glasgow Smile VM"
 tags: [vulnhub, Glasgow Smile, Boot2Root]
 comments: false

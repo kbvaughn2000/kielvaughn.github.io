@@ -2,6 +2,7 @@
 layout: post
 title: "Pickle Rick - TryHackMe"
 date: 2020-07-26
+ctf: true
 excerpt: "Walkthrough for Pickle Rick on TryHackme"
 tags: [Wonderland, TryHackMe, privilege escalation, website enumeration]
 comments: false

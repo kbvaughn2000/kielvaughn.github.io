@@ -15,62 +15,62 @@ My goal was to complete all of these myself without looking up any walkthroughs 
 
 Below is the list of machines I am planning to complete. The ones marked with a check have been completed and will be followed by the date completed.
 
- [x] Kioptrix Level 1 — 08/07/2020
- [x] Kioptrix Level 1.1 — 08/07/2020
- [ ] Kioptrix Level 1.2
- [ ] Kioptrix Level 1.3
- [ ] Kioptrix 2014
- [ ] Fristileaks 1.3
- [ ] Stapler 1
- [ ] VulnOS 2
- [ ] SickOS 1.2
- [ ] Brainpan 1
- [ ] HackLAB: Vulnix
- [ ] /dev/random: scream
- [ ] pwnOS 2.0
- [ ] SkyTower 1
- [ ] Mr-Robot 1
- [ ] PwnLab
- [ ] Lin.Security
- [ ] Templte of Doom
- [ ] Pinkys Palace v1
- [ ] Pinkys Palace v2
- [ ] Zico2
- [ ] Wintermute
- [ ] Lord of the root 1.0.1
- [ ] Tr0ll 1
- [ ] Tr0ll 2
- [ ] Web Developer 1
- [ ] SolidState
- [ ] Hackme 1
- [ ] Escalate_Linux 1
- [ ] DC 6
- [ ] DC 9
- [ ] Digitalworld.local (Bravery)
- [ ] Digitalworld.local (Development)
- [ ] Digitalworld.local (Mercy v2)
- [ ] Digitalworld.local (JOY)
- [ ] Prime 1
- [ ] Symfonos 1
- [ ] Symfonos 2
- [ ] Symfonos 3
- [ ] Symfonos 4
- [ ] Symfonos 5.2
- [ ] Misdirection 1
- [ ] Sar 1
- [ ]  Djinn 1
- [ ] EVM 1
- [ ] DerpNStink 1
- [ ] RickdiculouslyEasy 1
- [ ] Breach 1
- [ ] Breach 2.1
- [ ] Breach 3.0.1
- [ ] NullByte
- [ ] Bob 1.0.1
- [ ] Toppo 1
- [ ] W34kn3ss 1
- [ ] Goldeneye 1
- [ ] Infosec Prep OSCP Box
+- [x] Kioptrix Level 1 — 08/07/2020
+- [x] Kioptrix Level 1.1 — 08/07/2020
+- [ ] Kioptrix Level 1.2
+- [ ] Kioptrix Level 1.3
+- [ ] Kioptrix 2014
+- [ ] Fristileaks 1.3
+- [ ] Stapler 1
+- [ ] VulnOS 2
+- [ ] SickOS 1.2
+- [ ] Brainpan 1
+- [ ] HackLAB: Vulnix
+- [ ] /dev/random: scream
+- [ ] pwnOS 2.0
+- [ ] SkyTower 1
+- [ ] Mr-Robot 1
+- [ ] PwnLab
+- [ ] Lin.Security
+- [ ] Templte of Doom
+- [ ] Pinkys Palace v1
+- [ ] Pinkys Palace v2
+- [ ] Zico2
+- [ ] Wintermute
+- [ ] Lord of the root 1.0.1
+- [ ] Tr0ll 1
+- [ ] Tr0ll 2
+- [ ] Web Developer 1
+- [ ] SolidState
+- [ ] Hackme 1
+- [ ] Escalate_Linux 1
+- [ ] DC 6
+- [ ] DC 9
+- [ ] Digitalworld.local (Bravery)
+- [ ] Digitalworld.local (Development)
+- [ ] Digitalworld.local (Mercy v2)
+- [ ] Digitalworld.local (JOY)
+- [ ] Prime 1
+- [ ] Symfonos 1
+- [ ] Symfonos 2
+- [ ] Symfonos 3
+- [ ] Symfonos 4
+- [ ] Symfonos 5.2
+- [ ] Misdirection 1
+- [ ] Sar 1
+- [ ]  Djinn 1
+- [ ] EVM 1
+- [ ] DerpNStink 1
+- [ ] RickdiculouslyEasy 1
+- [ ] Breach 1
+- [ ] Breach 2.1
+- [ ] Breach 3.0.1
+- [ ] NullByte
+- [ ] Bob 1.0.1
+- [ ] Toppo 1
+- [ ] W34kn3ss 1
+- [ ] Goldeneye 1
+- [ ] Infosec Prep OSCP Box
 
 
 My goal is to complete these rooms over the next 120 days, and see if I feel prepared to take on the OSCP material and examination at that point. My plan is to provide updates once a month along with my thoughts on these boxes.

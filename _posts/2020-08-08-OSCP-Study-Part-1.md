@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OSCP Study - Part 1"
-date: 2020-05-17
+date: 2020-08-08
 excerpt: "My current studying plans and status for taking the OSCP."
 tags: [OSCP, Offensive Security, certification]
 comments: false

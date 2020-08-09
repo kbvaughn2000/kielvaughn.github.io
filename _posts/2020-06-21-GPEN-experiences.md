@@ -9,7 +9,7 @@ comments: false
 
 Yesterday I successfully completed my GPEN certification, which was the elective I selected for the SANS Institute's Applied Cybersecurity certificate program.
 
-![GPNE Badge](/assets/img/giac-penetration-tester-gpen.png)
+![GPEN Badge](/assets/img/giac-penetration-tester-gpen.png)
 
 If you are looking to learn more about:
 

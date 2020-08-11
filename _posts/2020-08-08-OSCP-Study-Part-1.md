@@ -36,7 +36,7 @@ Below is the list of machines I am planning to complete. The ones marked with a 
 - [ ] Mr-Robot 1
 - [ ] PwnLab
 - [ ] Lin.Security
-- [ ] Templte of Doom
+- [ ] Temple of Doom
 - [ ] Pinkys Palace v1
 - [ ] Pinkys Palace v2
 - [ ] Zico2

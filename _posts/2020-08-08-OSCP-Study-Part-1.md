@@ -22,7 +22,7 @@ Below is the list of machines I am planning to complete. The ones marked with a 
 - [x] Kioptrix Level 1 — 08/07/2020
 - [x] Kioptrix Level 1.1 — 08/07/2020
 - [x] Kioptrix Level 1.2 — 08/09/2020
-- [ ] Kioptrix Level 1.3 — 08/11/2020
+- [x] Kioptrix Level 1.3 — 08/11/2020
 - [ ] Kioptrix 2014
 - [ ] Fristileaks 1.3
 - [ ] Stapler 1

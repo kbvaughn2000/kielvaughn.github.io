@@ -4,7 +4,7 @@ title: " Kioptrix - 2014"
 date: 2020-08-12
 ctf: true
 excerpt: "Walkthrough for Kioptrix 2014 on Vulnhub"
-tags: [pChart 2.1.3, PHPTax, FreeBSD 9.0 kernel exploit]
+tags: [OSCP, pChart 2.1.3, PHPTax, FreeBSD 9.0 kernel exploit]
 comments: false
 ---
 [Kioptrix]( https://www.vulnhub.com/entry/kioptrix-2014-5,62/) 2014 is a vulnerable machine found on the [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=0) list which I have been using as preparation for the OSCP. Below is a walkthrough to compromise this machine.

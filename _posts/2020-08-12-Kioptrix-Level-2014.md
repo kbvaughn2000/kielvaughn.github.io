@@ -1,7 +1,7 @@
 ---
 layout: post
 title: " Kioptrix - 2014"
-date: 2020-08-11
+date: 2020-08-12
 ctf: true
 excerpt: "Walkthrough for Kioptrix 2014 on Vulnhub"
 tags: [pChart 2.1.3, PHPTax, FreeBSD 9.0 kernel exploit]

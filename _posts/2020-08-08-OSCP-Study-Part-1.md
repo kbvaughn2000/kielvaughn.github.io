@@ -23,11 +23,11 @@ Below is the list of machines I am planning to complete. The ones marked with a 
 - [x] Kioptrix Level 1.1 — 08/07/2020
 - [x] Kioptrix Level 1.2 — 08/09/2020
 - [x] Kioptrix Level 1.3 — 08/11/2020
-- [x] Kioptrix 2014
-- [x] Fristileaks 1.3
-- [x] Stapler 1
-- [x] VulnOS 2
-- [x] SickOS 1.2
+- [x] Kioptrix 2014 — 08/12/2020
+- [x] Fristileaks 1.3 — 08/13/2020
+- [x] Stapler 1 — 08/15/2020
+- [x] VulnOS 2 — 08/16/2020
+- [x] SickOS 1.2 — 08/19/2020
 - [ ] Brainpan 1
 - [ ] HackLAB: Vulnix
 - [ ] /dev/random: scream

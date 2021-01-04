@@ -4,6 +4,7 @@ title: Active Certifications and Associations
 excerpt: "Below are a list of the certifications I actively hold. Click on any of the images below to verify my certification status."
 comments: false
 ---
+Below are a list of the certifications I actively hold. Click on any of the images below to verify my certification status.
 <hr>
 <center><p style="font-size:24px;font-weight:bold"> Certifications</p></center>
 <hr><br>

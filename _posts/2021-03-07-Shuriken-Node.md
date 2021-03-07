@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "CheeseyJack"
-date: 2020-11-3
+title: "Shuriken: Node"
+date: 2021-03-07
 ctf: true
-excerpt: "Walkthrough for CheeseyJack on Vulnhub"
-tags: [privilege escalation, QDPM exploitation, insecure passwords]
+excerpt: "Walkthrough for Shuriken: Node on Vulnhub"
+tags: [privilege escalation, Node.js deserialization, Linux service abuse]
 comments: false
 
 

@@ -242,8 +242,6 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-details summary::before { 
-  content:"🡒"; 
+details summary::before {  
   color: black; 
-  /* you can style it however you want, use background-image for example */
 }

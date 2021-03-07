@@ -14,7 +14,6 @@ body {
 
 article,
 aside,
-details,
 figcaption,
 figure,
 footer,
@@ -241,12 +240,4 @@ textarea {
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
-}
-summary {
-    display: block;
-    color: black; 
-  }
-details summary {  
-  display: block;
-  color: black; 
 }

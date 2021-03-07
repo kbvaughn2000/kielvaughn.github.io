@@ -14,28 +14,6 @@ comments: false
 # Shuriken: Node
 
 Shuriken:Node is a recently released box on [Vulnhub](https://www.vulnhub.com). It is rated as an easy/medium difficulty box by the author.
-
-<details><summary><strong>Initial Foothold Hints</strong></summary>
-<ul>
-    <li>What technologies are being utilized on the main website?
-    <li>Are there any vulnerabilities for this technology?
-</ul>
-</details>
-
-<details><summary><strong>Lateral Movement Hints</strong></summary>
-<ul>
-    <li>Enumeration is very beneficial.
-    <li>What other port was open besides the website's port?
-    <li>What would you need to be able to connect with this service without a password?
-</ul>
-</details>
-
-<details><summary><strong>Root Privilege Escalation Hints</strong></summary>
-<ul>
-    <li>What can the 2nd user run as sudo?
-    <li>Is there a way this could be abused?
-</ul>
-</details>
     
 <details><summary><strong>Walkthrough</strong></summary>
 First, once imported, I run the following to discover the IP address of the system:

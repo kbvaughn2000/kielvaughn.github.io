@@ -18,13 +18,14 @@ Shuriken:Node is a recently released box on [Vulnhub](https://www.vulnhub.com/en
 Click on the title to expand each section below.
 
 ## Hints
-
+<br></br>
 <details><summary><strong>Initial Foothold Hints</strong></summary>
 <ul>
     <li>What technologies are being utilized on the main website?
     <li>Are there any vulnerabilities for this technology?
 </ul>
 </details>
+<br></br>
 <details><summary><strong>Lateral Movement Hints</strong></summary>
 <ul>
     <li>Enumeration is very beneficial.
@@ -32,16 +33,18 @@ Click on the title to expand each section below.
     <li>What would you need to be able to connect with this service without a password?
 </ul>
 </details>
-
+<br></br>
 <details><summary><strong>Root Privilege Escalation Hints</strong></summary>
 <ul>
     <li>What can the 2nd user run as sudo?
     <li>Is there a way this could be abused?
 </ul>
 </details>
+<br></br>
 
 ## Walkthrough
 
+<br></br>
 <details><summary><strong>Full Walkthrough</strong></summary>
 First, once imported, I run the following to discover the IP address of the system:
 

@@ -16,14 +16,15 @@ comments: false
 Shuriken:Node is a recently released box on [Vulnhub](https://www.vulnhub.com/entry/shuriken-node,628/) by TheCyb3rW0lf. It is rated as an easy/medium difficulty box. Below are some hints if you get stuck and a full walkthrough for this box. 
 
 Click on the title to expand each section below.
-<hr>
+
+## Hints
+
 <details><summary><strong>Initial Foothold Hints</strong></summary>
 <ul>
     <li>What technologies are being utilized on the main website?
     <li>Are there any vulnerabilities for this technology?
 </ul>
 </details>
-
 <details><summary><strong>Lateral Movement Hints</strong></summary>
 <ul>
     <li>Enumeration is very beneficial.
@@ -38,7 +39,9 @@ Click on the title to expand each section below.
     <li>Is there a way this could be abused?
 </ul>
 </details>
-<hr>
+
+## Walkthrough
+
 <details><summary><strong>Full Walkthrough</strong></summary>
 First, once imported, I run the following to discover the IP address of the system:
 

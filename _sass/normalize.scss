@@ -14,6 +14,7 @@ body {
 
 article,
 aside,
+details,
 figcaption,
 figure,
 footer,
@@ -22,6 +23,10 @@ main,
 menu,
 nav,
 section,
+summary {
+  display: block;
+}
+
 audio,
 canvas,
 progress,

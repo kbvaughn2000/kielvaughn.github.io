@@ -23,7 +23,8 @@ main,
 menu,
 nav,
 section,
-summary,
+summary { 
+    display: list-item }
 audio,
 canvas,
 progress,

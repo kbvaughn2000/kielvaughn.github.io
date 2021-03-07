@@ -1,3 +1,16 @@
+---
+layout: post
+title: "CheeseyJack"
+date: 2020-11-3
+ctf: true
+excerpt: "Walkthrough for CheeseyJack on Vulnhub"
+tags: [privilege escalation, QDPM exploitation, insecure passwords]
+comments: false
+
+
+---
+
+
 # Shuriken: Node
 
 Shuriken:Node is a recently released box on [Vulnhub](https://www.vulnhub.com). First, once imported, I run the following to discover the IP address of the system:

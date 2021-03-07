@@ -242,6 +242,11 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+summary {
+    display: block;
+    color: black; 
+  }
 details summary {  
+  display: block;
   color: black; 
 }

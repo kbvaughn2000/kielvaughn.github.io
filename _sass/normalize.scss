@@ -26,6 +26,9 @@ section,
 summary {
   display: block;
 }
+summary::marker {
+  color: black;
+}
 
 audio,
 canvas,

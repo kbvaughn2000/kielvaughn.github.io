@@ -29,6 +29,11 @@ summary {
 summary::marker {
   color: black;
 }
+summary::-webkit-details-marker {
+  color: black;
+  font-size: 20px;
+  margin-right: 2px;
+}
 
 audio,
 canvas,

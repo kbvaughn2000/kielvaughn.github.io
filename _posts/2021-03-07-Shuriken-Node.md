@@ -15,7 +15,7 @@ comments: false
 
 Shuriken:Node is a recently released box on [Vulnhub](https://www.vulnhub.com). It is rated as an easy/medium difficulty box by the author. Below are some hints and a full walkthrough for this box.
 
-
+---
 <details><summary><strong>Initial Foothold Hints</strong></summary>
 <ul>
     <li>What technologies are being utilized on the main website?
@@ -37,8 +37,10 @@ Shuriken:Node is a recently released box on [Vulnhub](https://www.vulnhub.com). 
     <li>Is there a way this could be abused?
 </ul>
 </details>
- 
-<details><summary><strong>Walkthrough</strong></summary>
+
+---
+
+<details><summary><strong>Full Walkthrough</strong></summary>
 First, once imported, I run the following to discover the IP address of the system:
 
 **`netdiscover -i eth0`**

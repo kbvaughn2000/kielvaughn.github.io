@@ -13,7 +13,7 @@ comments: false
 
 # Shuriken: Node
 
-Shuriken:Node is a recently released box on [Vulnhub](https://www.vulnhub.com). It is rated as an easy/medium difficulty box by the author. Below are some hints and a full walkthrough for this box.
+Shuriken:Node is a recently released box on [Vulnhub](https://www.vulnhub.com/entry/shuriken-node,628/) by TheCyb3rW0lf. It is rated as an easy/medium difficulty box. Below are some hints if you get stuck and a full walkthrough for this box.
 
 ---
 <details><summary><strong>Initial Foothold Hints</strong></summary>

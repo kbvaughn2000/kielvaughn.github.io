@@ -334,6 +334,20 @@ figure {
     }
   }
 }
+  &.sixth {
+    @media only screen and (min-width: 62.5em) {
+      img {
+        width: calc(16.67% - 12px);
+        float: left;
+        margin-left: 8px;
+        margin-right: 1px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+  }
+}
 svg:not(:root) {
   overflow: hidden; 
 }

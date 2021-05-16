@@ -43,7 +43,7 @@ Vulnversity is the first room in the Offensive Security path on TryHackMe. Below
 
 <details><summary><strong>Task 5 Hints</strong></summary>
 <ul>
-    <li>Search for how to perform a SUID search on Linx
+    <li>Search for how to perform a SUID search on Linux
     <li>GTFOBins can help you with finding out which SUID can be exploited.
 </ul>
 </details>

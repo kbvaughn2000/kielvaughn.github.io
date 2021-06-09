@@ -10,7 +10,7 @@ comments: false
 
 # Drifting Blues 1
 
-Drifting Blues is the first in a series of 9 boxes on [Vulnhub](https://www.vulnhub.com/series/driftingblues,424/)
+Drifting Blues is the first in a series of 9 boxes on [Vulnhub](https://www.vulnhub.com/series/driftingblues,424/).
 
 <details><summary><strong>User Hints</strong></summary>
 <ul>
@@ -41,7 +41,7 @@ from our Kali host. After a few moments, you should be able to uncover the IP of
 
 Once you have discovered the IP, let's enumerate this host to determine what ports/services are open/running. To do this, let's run:
 
-`threader3000`
+**`threader3000`**
 
 and enter the IP uncovered by netdiscover when prompted:
 

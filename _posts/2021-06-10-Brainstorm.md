@@ -43,7 +43,7 @@ Just start the machine!
 
 #### Question 2
 
-![Brainstorm Task 1 Question 2](/assets/img/Brainstorm 1.png)
+![Brainstorm Task 1 Question 2](/assets/img/Brainstorm1.png)
 
 There are several ways to answer this question, but one of the easiest is to use threader3000, as it will enumerate all TCP ports. This can be ran by running:
 
@@ -157,7 +157,11 @@ It appears that it crashed around 2,300 bytes:
 
 ![Brainstorm buffer overflow](/assets/img/Brainstorm12.png)
 
-Back in Immunity Debugger, you can see that the EIP and ESP have been overwritten with 41414141, which is the hex equivalent of AAAA. Let's now use Metasploit's pattern create utility to help us figure out exactly where this is crashing. Let's run the following command:
+Back in Immunity Debugger, you can see that the EIP and ESP have been overwritten with 41414141, which is the hex equivalent of AAAA. 
+
+![Brainstorm overwrite EIP ESP](/assets/img/Brainstorm13.png)    
+
+Let's now use Metasploit's pattern create utility to help us figure out exactly where this is crashing. Let's run the following command:
 
 **`/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2300`**
 

